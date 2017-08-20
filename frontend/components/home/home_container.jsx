@@ -3,12 +3,9 @@ import { fetchBlogs } from './../../actions/blog_actions';
 import Home from './home';
 
 
-const mapStateToProps = state => {
-  return ({
-    currentUser: state.session.currentUser,
-    campaigns: Object.keys(state.campaigns).map(id => state.campaigns[id])
-  });
-};
+const mapStateToProps = state => ({
+  blogs: state.blogs
+});
 
 const mapDispatchToProps = dispatch => ({
   fetchBlogs: () => dispatch(fetchBlogs())

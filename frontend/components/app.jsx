@@ -4,8 +4,9 @@ import { hashHistory } from 'react-router';
 const App = ({ children }) => (
   <div>
     <header>
-      
+
     </header>
+    { children }
   </div>
 );
 

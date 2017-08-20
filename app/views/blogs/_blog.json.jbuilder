@@ -1,1 +1,1 @@
-json.extract! blog, :title, :description, :cover
+json.extract! blog, :title, :description, :body, :cover

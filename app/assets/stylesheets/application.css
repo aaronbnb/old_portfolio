@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+body {
+  background: blue;
+}
+
+nav {
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: url('transparent.png') center repeat top;
+}
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+.navbar li { color: #000 }
