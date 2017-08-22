@@ -1,14 +1,13 @@
 import { connect } from 'react-redux';
 import { fetchBlogs } from './../../actions/blog_actions';
-import Home from './home';
+import NavBar from './navbar';
 
 
 const mapStateToProps = (state, ownProps) => {
   console.log(state);
-  return ({
-    background: 'stars',
-    blogs: state.blogs
-  });
+  console.log(ownProps);
+  return ({blogs: state.blogs,
+  background: "stars"});
 };
 
 const mapDispatchToProps = dispatch => ({
@@ -18,4 +17,4 @@ const mapDispatchToProps = dispatch => ({
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(Home);
+)(NavBar);
