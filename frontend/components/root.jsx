@@ -14,7 +14,7 @@ const Root = ({ store }) => {
       <Provider store={store}>
         <Router history={hashHistory}>
           <Route path="/" component={App}>
-            <IndexRoute component={Body}/>
+            <IndexRoute component={HomeContainer}/>
 
           </Route>
         </Router>

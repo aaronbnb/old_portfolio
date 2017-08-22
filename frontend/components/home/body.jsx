@@ -14,9 +14,6 @@ class Body extends React.Component {
       <div>
         <div className={this.state.background}></div>
         <div className={(this.state.background === "stars") ? "twinkling" : ""}></div>
-        <div>
-        <HomeContainer background={this.state.background}/>
-        </div>
       </div>
     );
   }
