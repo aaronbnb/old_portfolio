@@ -23,12 +23,13 @@ class Home extends React.Component {
                 <span className="icon-bar"></span>
                 <span className="icon-bar"></span>
               </button>
-              <Link className="navbar-brand" href="#">Brand</Link>
+              <Link className="navbar-brand" href="#">Aaron Farber</Link>
             </div>
             <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul className="nav navbar-nav">
-                <li className="active"><a href="#">Link <span className="sr-only">(current)</span></a></li>
-                <li><a href="#">Link</a></li>
+                <li><a href="#">Developer <span className="sr-only">(current)</span></a></li>
+                <li><a href="#">Teacher</a></li>
+                <li><a href="#">Blog</a></li>
 
               </ul>
 
