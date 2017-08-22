@@ -29,16 +29,16 @@ class Home extends React.Component {
             </div>
             <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <div className="choice-box">
-                      <div className='cl-effect-1'>
-                <ul className="nav navbar-nav">
+                <div className='expand-effect'>
+                  <ul className="nav navbar-nav">
 
-                  <li><a href="#">&nbsp;Developer &nbsp;<span className="sr-only">(current)</span></a></li>
-                  <li><a href="#">&nbsp;Teacher &nbsp;</a></li>
-                  <li><a href="#">&nbsp;Resume &nbsp;</a></li>
-                  <li><a href="#">&nbsp;Musings &nbsp;</a></li>
+                    <li><a href="#">&nbsp;Developer &nbsp;<span className="sr-only">(current)</span></a></li>
+                    <li><a href="#">&nbsp;Teacher &nbsp;</a></li>
+                    <li><a href="#">&nbsp;Resume &nbsp;</a></li>
+                    <li><a href="#">&nbsp;Musings &nbsp;</a></li>
 
-                </ul>
-                  </div>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
