@@ -17,28 +17,32 @@ class Home extends React.Component {
         <nav className="navbar navbar-default">
           <div className="container-fluid">
             <div className="navbar-header">
+
               <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span className="sr-only">Toggle navigation</span>
                 <span className="icon-bar"></span>
                 <span className="icon-bar"></span>
                 <span className="icon-bar"></span>
               </button>
-              <Link className="navbar-brand" href="#">Aaron Farber</Link>
+              <Link className="navbar-brand" href="#"></Link>
+
             </div>
             <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul className="nav navbar-nav">
-                <li><a href="#">Developer <span className="sr-only">(current)</span></a></li>
-                <li><a href="#">Teacher</a></li>
-                <li><a href="#">Blog</a></li>
+              <div className="choice-box">
+                      <div className='cl-effect-1'>
+                <ul className="nav navbar-nav">
 
-              </ul>
+                  <li><a href="#">&nbsp;Developer &nbsp;<span className="sr-only">(current)</span></a></li>
+                  <li><a href="#">&nbsp;Teacher &nbsp;</a></li>
+                  <li><a href="#">&nbsp;Resume &nbsp;</a></li>
+                  <li><a href="#">&nbsp;Musings &nbsp;</a></li>
 
+                </ul>
+                  </div>
+              </div>
             </div>
           </div>
         </nav>
-        <div id="trial">
-
-        </div>
       </div>
     );
 

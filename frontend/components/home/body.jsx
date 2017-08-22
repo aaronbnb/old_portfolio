@@ -5,17 +5,17 @@ import HomeContainer from './home_container';
 class Body extends React.Component {
   constructor() {
     super();
-    this.state = {stars: true};
+    this.state = {background: "stars"};
   }
 
   render() {
 
     return(
       <div>
-        <div className={this.state.stars ? "stars" : ""}></div>
-        <div className="twinkling"></div>
+        <div className={this.state.background}></div>
+        <div className={(this.state.background === "stars") ? "twinkling" : ""}></div>
         <div>
-        <HomeContainer stars={this.state.stars}/>
+        <HomeContainer background={this.state.background}/>
         </div>
       </div>
     );
