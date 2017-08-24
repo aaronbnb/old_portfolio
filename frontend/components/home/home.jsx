@@ -9,11 +9,16 @@ class Home extends React.Component {
   render() {
 
     return(
-      <div id="home-container">
-        <p className="home-text">aaron</p>
-        <p className="home-text">farber</p>
-        <p className="home-text">is</p>
-        <p className="home-text">here</p>
+      <div>
+        <div className="jumbotron" id="jt3">
+          <div className='profile-container'>
+            <div className='self-image'></div>
+            <h1 className="display-3">Aaron Farber</h1>
+          </div>
+            <p className="lead">Software developer and instructor with a passion for web accessibility, online education, and Thai food.</p>
+          <hr className="my-4"/>
+          <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        </div>
       </div>
     );
   }
