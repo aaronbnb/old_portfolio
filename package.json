@@ -30,6 +30,7 @@
     "react": "^0.14.9",
     "react-bootstrap": "^0.31.2",
     "react-dom": "^0.14.8",
+    "react-mailto": "^0.4.0",
     "react-redux": "^4.4.6",
     "react-router": "^2.4.1",
     "redux": "^3.6.0",

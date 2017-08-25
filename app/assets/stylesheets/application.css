@@ -13,6 +13,15 @@
  *= require_tree .
  *= require_self
  */
+
+/*
+ font-family: 'Mukta Mahee', sans-serif;
+font-family: 'Slabo 27px', serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+
+
 div {
   border-color: black;
 }
@@ -70,13 +79,6 @@ div.self-image {
   margin-right: 15px;
 }
 
-div.profile-container {
-  display: flex;
-  justify-content: space-around;
-  max-width: 550px;
-  padding-bottom: 10px;
-}
-
 div.choice-box {
   margin-left: 6%;
 }
@@ -95,13 +97,13 @@ div.choice-box {
 }
 
 h1.display-3 {
-  color: white;
+  color: #efefef;
   font-family: 'Montserrat', sans-serif;
 
 }
 
 p.lead {
-  color: white;
+  color: #efefef;
 }
 
 a.navbar-brand {
@@ -113,8 +115,47 @@ a.navbar-brand {
   line-height: 20px;
 }
 
-.navbar-brand {
+div.profile-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 550px;
+  padding-bottom: 10px;
+}
 
+
+div.contact-info p {
+  color: #efefef;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+#email {
+  color: #efefef;
+  cursor: pointer;
+}
+
+
+#email:hover {
+  color: lightgrey;
+  text-decoration: none !important;
+  outline: none;
+}
+
+span#phone:hover {
+  color: lightgrey;
+}
+
+i#phone:hover {
+  color: lightgrey;
+}
+
+a.external-link {
+  text-decoration: none;
+}
+
+a.external-link:hover {
+  color: lightgrey;
 }
 
 .navbar-default .navbar-toggle {
