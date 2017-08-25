@@ -100,10 +100,15 @@ h1.display-3 {
   color: #efefef;
   font-family: 'Montserrat', sans-serif;
 
+  margin: 0;
+
 }
 
-p.lead {
-  color: #efefef;
+@media screen and (min-width: 998px) {}
+
+  h1.display-3 {
+      font-size: 64px;
+  }
 }
 
 a.navbar-brand {
@@ -116,18 +121,21 @@ a.navbar-brand {
 }
 
 div.profile-container {
-  display: flex;
-  justify-content: space-around;
+  display: inline;
   max-width: 550px;
   padding-bottom: 10px;
+}
+
+p.lead {
+  color: #efefef;
+  font-family: 'Mukta Mahee', sans-serif;
 }
 
 
 div.contact-info p {
   color: #efefef;
-  font-size: 14px;
-  font-family: 'Raleway', sans-serif;
-
+  font-size: 16px;
+  font-family: 'Mukta Mahee', sans-serif;
 }
 
 #email {

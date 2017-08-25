@@ -12,24 +12,26 @@ class Home extends React.Component {
     return(
       <div>
         <div className="jumbotron" id="jt3">
-          <div className='profile-container'>
-            <div className='self-image' role="img" aria-label="Aaron Farber professional headshot"></div>
-            <h1 className="display-3">Aaron Farber</h1>
-          </div>
-            <p className="lead">Software developer and instructor with a passion for web accessibility, online education, and Thai food.</p>
-          <hr className="my-4"/>
+          <div id="contact-box">
+            <div className='profile-container'>
+              <div className='self-image' role="img" aria-label="Aaron Farber professional headshot"></div>
+              <h1 className="display-3">Aaron Farber</h1>
+            </div>
+
             <div className="contact-info">
+
               <p>
-                  <span id="phone">
-                   <i className="fa fa-phone fa-fw" id="phone"></i>
-                   &nbsp;&nbsp;<span>916.606.2848</span>
-                 </span>
-                   <br />
-                   <Mailto email='aaronfarber9@gmail.com' obfuscate={false} id="email">
-                     <i className="fa fa-envelope fa-fw"></i>
+                <span id="phone">
+                 <i className="fa fa-phone fa-fw" id="phone"></i>
+                 &nbsp;&nbsp;<span>916.606.2848</span>
+                </span>
+                  <br />
+                <Mailto email='aaronfarber9@gmail.com' obfuscate={false} id="email">
+                  <i className="fa fa-envelope fa-fw"></i>
                      &nbsp;&nbsp;<span>aaronfarber9@gmail.com</span>
-                  </Mailto>
+                </Mailto>
               </p>
+
               <p>
                     <a href="https://github.com/aaronbnb"
                       target="_blank" className="external-link">
@@ -43,7 +45,17 @@ class Home extends React.Component {
                         <span>&nbsp;&nbsp;Linkedin</span>
                     </a>
               </p>
+
             </div>
+
+          </div>
+
+          <hr className="my-4"/>
+
+          <div>
+            <p className="lead">Software developer and instructor with a passion for web accessibility, online education, and Thai food.</p>
+          </div>
+
         </div>
       </div>
     );
