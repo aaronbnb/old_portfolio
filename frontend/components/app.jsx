@@ -8,9 +8,8 @@ const App = ({ children }) => (
     <header>
 
     </header>
-    <NavBarContainer/>
     { children }
-    <Body />
+
 
 
   </div>

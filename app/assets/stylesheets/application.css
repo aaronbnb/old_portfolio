@@ -29,7 +29,7 @@ div {
 .container-fluid {
   border: 1px solid black;
 }
-
+/*
 div#jt3 {
   position:relative;
   z-index:3;
@@ -223,6 +223,34 @@ header a, a:visited {
     text-decoration:none;
     color:#fcfcfc;
 }
+*/
+
+.nav {
+  position: relative;
+  z-index: 5;
+
+}
+
+button#cmon {
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(241,241,241,0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+nav.navbar.navbar-toggleable-md.navbar-light.bg-faded {
+    position: relative;
+    z-index: 5;
+    background: transparent;
+    padding: 20px;
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-toggler {
+    color: yellow;
+}
 
 @keyframes move-twink-back {
     from {background-position:0 0;}
@@ -268,7 +296,15 @@ header a, a:visited {
   animation:move-twink-back 400s linear infinite;
 }
 
-.expand-effect a::before,
+ul.nav.navbar-nav li a {
+  color: #efefef;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.expand-effect li a::before,
 .expand-effect a::after {
 	display: inline-block;
 	opacity: 0;
@@ -276,6 +312,7 @@ header a, a:visited {
 	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
 	transition: transform 0.3s, opacity 0.2s;
     color: white;
+    text-decoration: none;
 }
 
 .expand-effect a::before {

@@ -1,6 +1,6 @@
 import React from 'react';
 import {withRouter, Link, hashHistory } from 'react-router';
-import HomeContainer from './home_container';
+import NavBarContainer from './navbar_container';
 
 class Body extends React.Component {
   constructor() {
@@ -14,6 +14,9 @@ class Body extends React.Component {
       <div>
         <div className={this.state.background}></div>
         <div className={(this.state.background === "stars") ? "twinkling" : ""}></div>
+        <div>
+          <NavBarContainer />
+        </div>
       </div>
     );
   }
