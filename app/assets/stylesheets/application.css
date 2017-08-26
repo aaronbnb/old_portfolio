@@ -226,8 +226,6 @@ header a, a:visited {
 */
 
 .nav {
-  position: relative;
-  z-index: 5;
 
 }
 
@@ -235,6 +233,42 @@ button#cmon {
   background: transparent;
   outline: none;
   cursor: pointer;
+}
+
+a.navbar-brand {
+  padding-top: 12px;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 990px)  {
+  a.navbar-brand {
+    position: absolute;
+    top: 10px;
+    left: 80px;
+  }
+
+  div.expand-effect {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+  }
+
+  #name {
+    position: absolute;
+    top: 20px;
+  }
+
+}
+
+@media (min-width: 990px) {
+  #name {
+    position: absolute;
+    top: 40px;
+  }
+  div.expand-effect {
+    margin-left: 18%;
+    margin-top: 10px;
+  }
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -249,7 +283,11 @@ nav.navbar.navbar-toggleable-md.navbar-light.bg-faded {
 }
 
 .navbar-light .navbar-brand, .navbar-light .navbar-toggler {
-    color: yellow;
+    color: #efefef;
+    font-size: 18px;
+
+    letter-spacing: 1px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 @keyframes move-twink-back {
@@ -296,6 +334,12 @@ nav.navbar.navbar-toggleable-md.navbar-light.bg-faded {
   animation:move-twink-back 400s linear infinite;
 }
 
+div#navbarNavAltMarkup {
+  background-color: transparent;
+
+}
+
+
 ul.nav.navbar-nav li a {
   color: #efefef;
   text-decoration: none;
@@ -341,5 +385,5 @@ ul.nav.navbar-nav li a {
 	-webkit-transform: translateX(0px);
 	-moz-transform: translateX(0px);
 	transform: translateX(0px);
-    color: white;
+  color: white;
 }
