@@ -9,7 +9,7 @@ class Dev extends React.Component {
   render() {
     console.log(this.props);
     return (
-      <div>
+      <div className='dev-container'>
         <p>We're here</p>
       </div>
     );

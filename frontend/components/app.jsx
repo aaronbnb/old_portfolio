@@ -8,6 +8,7 @@ const App = ({ children }) => (
     <header>
 
     </header>
+    <Body />
     { children }
 
 

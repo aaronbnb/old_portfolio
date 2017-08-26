@@ -10,7 +10,7 @@ class Home extends React.Component {
   render() {
     console.log(this.props);
     return(
-      <div>
+      <div className='dev-container'>
         <div className="jumbotron" id="jt3">
           <div id="contact-box">
             <div className='profile-container'>

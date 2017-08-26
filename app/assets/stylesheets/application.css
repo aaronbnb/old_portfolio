@@ -290,6 +290,10 @@ nav.navbar.navbar-toggleable-md.navbar-light.bg-faded {
     font-family: 'Quicksand', sans-serif;
 }
 
+#name:hover {
+  color: grey;
+}
+
 @keyframes move-twink-back {
     from {background-position:0 0;}
     to {background-position:-10000px 5000px;}
@@ -386,4 +390,10 @@ ul.nav.navbar-nav li a {
 	-moz-transform: translateX(0px);
 	transform: translateX(0px);
   color: white;
+}
+
+div.dev-container {
+  position: relative;
+  z-index: 5;
+  background-color: grey;
 }
