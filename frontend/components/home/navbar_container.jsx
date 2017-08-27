@@ -7,7 +7,8 @@ const mapStateToProps = (state, ownProps) => {
   console.log(state);
   console.log(ownProps);
   return ({blogs: state.blogs,
-  background: "stars"});
+  background: "stars",
+  toggle: ownProps.toggle});
 };
 
 const mapDispatchToProps = dispatch => ({

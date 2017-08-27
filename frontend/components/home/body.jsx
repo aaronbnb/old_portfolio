@@ -6,6 +6,12 @@ class Body extends React.Component {
   constructor() {
     super();
     this.state = {background: "stars"};
+    this.toggleBackground = this.toggleBackground.bind(this);
+  }
+
+  toggleBackground(e) {
+    console.log(e);
+    this.setState({background: ""});
   }
 
   render() {
@@ -15,7 +21,7 @@ class Body extends React.Component {
         <div className={this.state.background}></div>
         <div className={(this.state.background === "stars") ? "twinkling" : ""}></div>
         <div id="navbar-container">
-          <NavBarContainer />
+          <NavBarContainer toggle={this.toggleBackground}/>
         </div>
       </div>
     );

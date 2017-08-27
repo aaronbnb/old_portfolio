@@ -5,6 +5,7 @@ import Dev from './dev';
 
 const mapStateToProps = (state, ownProps) => {
   console.log(state);
+  console.log(ownProps);
   return ({
     background: 'stars',
     blogs: state.blogs

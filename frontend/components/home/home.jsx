@@ -11,11 +11,10 @@ class Home extends React.Component {
     console.log(this.props);
     return(
       <div className='dev-container'>
-        <div className="jumbotron" id="jt3">
+        <div id="jt3">
           <div id="contact-box">
             <div className='profile-container'>
               <div className='self-image' role="img" aria-label="Aaron Farber professional headshot"></div>
-              <h1 className="display-3">Aaron Farber</h1>
             </div>
 
             <div className="contact-info">
@@ -49,10 +48,7 @@ class Home extends React.Component {
             </div>
 
           </div>
-
-          <hr className="my-4"/>
-
-          <div>
+          <div id="description">
             <p className="lead">Software developer and instructor with a passion for web accessibility, online education, and Thai food.</p>
           </div>
 

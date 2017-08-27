@@ -30,15 +30,7 @@ div {
   border: 1px solid black;
 }
 /*
-div#jt3 {
-  position:relative;
-  z-index:3;
-  margin-left: 10%;
-  margin-right: 10%;
-  max-height: 400px;
-  background-color: transparent;
-  background: transparent;
-}
+
 
 nav {
   margin-left: 20px;
@@ -68,16 +60,7 @@ button {
 .navbar-default .navbar-nav>li>a:hover {
 }
 
-div.self-image {
-  background-image: url('face.png');
-  background-size: cover;
-  background-position: center;
-  height: 110px;
-  width: 110px;
-  border-radius: 50%;
-  border: 2px solid lightgrey;
-  margin-right: 15px;
-}
+
 
 div.choice-box {
   margin-left: 6%;
@@ -120,51 +103,7 @@ a.navbar-brand {
   line-height: 20px;
 }
 
-div.profile-container {
-  display: inline;
-  max-width: 550px;
-  padding-bottom: 10px;
-}
 
-p.lead {
-  color: #efefef;
-  font-family: 'Mukta Mahee', sans-serif;
-}
-
-
-div.contact-info p {
-  color: #efefef;
-  font-size: 16px;
-  font-family: 'Mukta Mahee', sans-serif;
-}
-
-#email {
-  color: #efefef;
-  cursor: pointer;
-}
-
-
-#email:hover {
-  color: lightgrey;
-  text-decoration: none !important;
-  outline: none;
-}
-
-span#phone:hover {
-  color: lightgrey;
-}
-
-i#phone:hover {
-  color: lightgrey;
-}
-
-a.external-link {
-  text-decoration: none;
-}
-
-a.external-link:hover {
-  color: lightgrey;
-}
 
 .navbar-default .navbar-toggle {
   border-color: transparent;
@@ -258,6 +197,15 @@ a.navbar-brand {
     top: 20px;
   }
 
+  div#jt3 {
+    position: absolute;
+    top: 60px;
+  }
+
+  .navbar-collapse {
+    min-height: 125px;
+  }
+
 }
 
 @media (min-width: 990px) {
@@ -268,6 +216,17 @@ a.navbar-brand {
   div.expand-effect {
     margin-left: 18%;
     margin-top: 10px;
+  }
+
+  div.dev-container {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 750px) {
+  div#jt3 {
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -288,6 +247,10 @@ nav.navbar.navbar-toggleable-md.navbar-light.bg-faded {
 
     letter-spacing: 1px;
     font-family: 'Quicksand', sans-serif;
+}
+
+#logo:hover {
+  opacity: 0.8;
 }
 
 #name:hover {
@@ -394,6 +357,79 @@ ul.nav.navbar-nav li a {
 
 div.dev-container {
   position: relative;
-  z-index: 5;
-  background-color: grey;
+  z-index: 4;
+}
+
+div.profile-container {
+  display: inline;
+  max-width: 550px;
+  padding-bottom: 10px;
+}
+
+p.lead {
+  color: #efefef;
+  font-family: 'Mukta Mahee', sans-serif;
+}
+
+
+div.contact-info p {
+  color: #efefef;
+  font-size: 17px;
+  font-family: 'Mukta Mahee', sans-serif;
+}
+
+#email {
+  color: #efefef;
+  cursor: pointer;
+}
+
+
+#email:hover {
+  color: lightgrey;
+  text-decoration: none !important;
+  outline: none;
+}
+
+span#phone:hover {
+  color: lightgrey;
+}
+
+i#phone:hover {
+  color: lightgrey;
+}
+
+a.external-link {
+  text-decoration: none;
+  color: #efefef;
+}
+
+a.external-link:hover {
+  color: lightgrey;
+}
+
+div#jt3 {
+  position:relative;
+  z-index:3;
+  margin-left: 10%;
+  margin-right: 10%;
+  max-height: 550px;
+  background-color: transparent;
+  background: transparent;
+}
+
+div.self-image {
+  background-image: url('face.png');
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid lightgrey;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+div.contact-info {
+  padding-left: 5px;
+  min-width: 250px;
 }

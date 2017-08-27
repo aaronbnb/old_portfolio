@@ -11,7 +11,7 @@ class NavBar extends React.Component {
   }
 
   render() {
-
+    console.log(this.props);
     return(
       <nav className="navbar navbar-toggleable-md navbar-light bg-faded">
 
@@ -31,7 +31,7 @@ class NavBar extends React.Component {
           <div className='expand-effect'>
 
             <ul className="nav navbar-nav">
-              <li><a href="#">&nbsp;Developer &nbsp;<span className="sr-only">(current)</span></a></li>
+              <li><Link to={"dev"} params={{ toggleTest: this.props.toggle }}>&nbsp;Developer &nbsp;<span className="sr-only">(current)</span></Link></li>
               <li><a href="#">&nbsp;Teacher &nbsp;</a></li>
               <li><a href="#">&nbsp;Resume &nbsp;</a></li>
               <li><a href="#">&nbsp;Musings &nbsp;</a></li>
