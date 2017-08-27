@@ -4,10 +4,19 @@ import {withRouter, Link, hashHistory } from 'react-router';
 class NavBar extends React.Component {
   constructor(props) {
     super(props);
+    this.linkAndToggle = this.linkAndToggle.bind(this);
+
   }
 
   componentDidMount() {
     this.props.fetchBlogs();
+  }
+
+  linkAndToggle(path) {
+    return e => {
+      this.props.toggle(path);
+      this.props.router.push("/dev");
+    };
   }
 
   render() {
@@ -31,8 +40,8 @@ class NavBar extends React.Component {
           <div className='expand-effect'>
 
             <ul className="nav navbar-nav">
-              <li><Link to={"dev"} params={{ toggleTest: this.props.toggle }}>&nbsp;Developer &nbsp;<span className="sr-only">(current)</span></Link></li>
-              <li><a href="#">&nbsp;Teacher &nbsp;</a></li>
+              <li><Link to={"dev"}>&nbsp;Developer &nbsp;<span className="sr-only">(current)</span></Link></li>
+              <li onClick={this.linkAndToggle("dev")}><a href="#">&nbsp;Teacher &nbsp;</a></li>
               <li><a href="#">&nbsp;Resume &nbsp;</a></li>
               <li><a href="#">&nbsp;Musings &nbsp;</a></li>
             </ul>
