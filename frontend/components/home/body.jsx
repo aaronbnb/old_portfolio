@@ -5,24 +5,35 @@ import NavBarContainer from './navbar_container';
 class Body extends React.Component {
   constructor() {
     super();
-    this.state = {background: ["stars", "twinkling"};
+    this.background = this.background.bind(this);
+    this.state = {background: "stars"};
     this.toggleBackground = this.toggleBackground.bind(this);
   }
 
   toggleBackground(path) {
     console.log(path);
-    if (path === 'dev') {
-      document.getElementById('bg1').addClass()
-
-    }
     this.setState({background: path});
+  }
+
+  background() {
+    switch(this.state.background) {
+    case "stars":
+        return "stars"
+        break;
+    case n:
+        code block
+        break;
+    default:
+        code block
+}
   }
 
   render() {
 
     return(
       <div>
-        <div id="bg1" className={this.state.background}></div>
+        <div id="bg1"
+          className={this.background()}></div>
         <div id="bg2" className={(this.state.background === "stars") ? "twinkling" : ""}></div>
         <div id="navbar-container">
           <NavBarContainer toggle={this.toggleBackground}/>
