@@ -1,5 +1,5 @@
 import React from 'react';
-import {withRouter, Link, hashHistory } from 'react-router';
+import {withRouter, Link, browserHistory, hashHistory } from 'react-router';
 
 class NavBar extends React.Component {
   constructor(props) {
@@ -14,8 +14,9 @@ class NavBar extends React.Component {
 
   linkAndToggle(path) {
     return e => {
+      console.log(path);
       this.props.toggle(path);
-      this.props.router.push("/dev");
+      hashHistory.push(path);
     };
   }
 

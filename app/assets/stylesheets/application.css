@@ -1,171 +1,11 @@
 /*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
-
-/*
  font-family: 'Mukta Mahee', sans-serif;
 font-family: 'Slabo 27px', serif;
 font-family: 'Raleway', sans-serif;
 */
 
-
-
 div {
   border-color: black;
-}
-
-.container-fluid {
-  border: 1px solid black;
-}
-/*
-
-
-nav {
-  margin-left: 20px;
-  margin-right: 20px;
-  background: url('transparent.png') center repeat top;
-  border-color: transparent;
-}
-
-button {
-
-  border: transparent;
-}
-
-
-.navbar-default .navbar-brand {
-  background-image: url('aaron-logo.png');
-  background-size: cover;
-  background-position: center;
-  padding-right: 30px;
-  height: 40px;
-}
-
-.navbar-default .navbar-nav>li>a {
-    color: white;
-    letter-spacing: 4px;
-}
-.navbar-default .navbar-nav>li>a:hover {
-}
-
-
-
-div.choice-box {
-  margin-left: 6%;
-}
-
-.navbar {
-   background-color: transparent;
-   text-transform: uppercase;
-   background: transparent;
-   border-color: #000000;
-   z-index: 2;
-}
-
-.navbar li {
-    color: #000;
-
-}
-
-h1.display-3 {
-  color: #efefef;
-  font-family: 'Montserrat', sans-serif;
-
-  margin: 0;
-
-}
-
-@media screen and (min-width: 998px) {}
-
-  h1.display-3 {
-      font-size: 64px;
-  }
-}
-
-a.navbar-brand {
-  float: left;
-  height: 40px;
-  margin-top: 4px;
-
-  font-size: 18px;
-  line-height: 20px;
-}
-
-
-
-.navbar-default .navbar-toggle {
-  border-color: transparent;
-
-  font-family: 'Montserrat', sans-serif;
-}
-
-.navbar-default .navbar-collapse {
-    border-color: transparent;
-    background: #000000;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 2px;
-    font-weight: 700;
-}
-
-.navbar-default .navbar-toggle:focus {
-  border-color: #000000;
-  background: #000000;
-}
-
-.navbar li { color: white; }
-
-* {
-    margin: 0;
-    padding: 0;
-}
-header {
-    display:block;
-    font: 14px/1.3 Arial,sans-serif;
-    height:30px;
-    position:relative;
-    z-index:5;
-}
-
-.nav>li>a {
-  padding-left: 0px;
-}
-
-
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-  color: white;
-}
-
-h2{
-    margin-top: 30px;
-    text-align: center;
-}
-header h2{
-    font-size: 22px;
-    margin: 0 auto;
-    padding: 10px 0;
-    width: 80%;
-    text-align: center;
-}
-header a, a:visited {
-    text-decoration:none;
-    color:#fcfcfc;
-}
-*/
-
-.nav {
-
 }
 
 button#cmon {
@@ -274,7 +114,7 @@ nav.navbar.navbar-toggleable-md.navbar-light.bg-faded {
     to {background-position:-10000px 5000px;}
 }
 
-.stars, .twinkling {
+.stars, .twinkling, .dev-page {
   position:absolute;
   top:0;
   left:0;
@@ -286,11 +126,13 @@ nav.navbar.navbar-toggleable-md.navbar-light.bg-faded {
 }
 
 .stars {
+  transition: background-color 1s ease;
   background:#000 url('stars.png') repeat top center;
   z-index:0;
 }
 
 .twinkling{
+  transition: background-color 1s ease;
   background:transparent url('original.png') repeat top center;
   z-index:1;
 
@@ -432,4 +274,9 @@ div.self-image {
 div.contact-info {
   padding-left: 5px;
   min-width: 250px;
+}
+
+div.dev-page {
+  transition: background-color 1.5s ease;
+  background-color: red;
 }

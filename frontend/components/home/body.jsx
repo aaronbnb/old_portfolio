@@ -6,35 +6,44 @@ class Body extends React.Component {
   constructor() {
     super();
     this.background = this.background.bind(this);
-    this.state = {background: "stars"};
+    this.state = {background: "home"};
     this.toggleBackground = this.toggleBackground.bind(this);
   }
 
-  toggleBackground(path) {
-    console.log(path);
-    this.setState({background: path});
+  toggleBackground(style) {
+    console.log(style);
+    this.setState({background: style});
   }
 
   background() {
     switch(this.state.background) {
-    case "stars":
-        return "stars"
-        break;
-    case n:
-        code block
-        break;
-    default:
-        code block
-}
+      case "home":
+        return (
+          <div>
+            <div className="stars"></div>
+            <div className="twinkling"></div>
+          </div>
+        );
+      case "dev":
+        return(
+          <div className="dev-page">
+          </div>
+        );
+      default:
+        return (
+          <div>
+            <div className="stars"></div>
+            <div className="twinkling"></div>
+          </div>
+        );
+    }
   }
 
   render() {
-
+    console.log(this.state);
     return(
       <div>
-        <div id="bg1"
-          className={this.background()}></div>
-        <div id="bg2" className={(this.state.background === "stars") ? "twinkling" : ""}></div>
+        {this.background()}
         <div id="navbar-container">
           <NavBarContainer toggle={this.toggleBackground}/>
         </div>

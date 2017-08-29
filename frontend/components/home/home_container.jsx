@@ -4,9 +4,7 @@ import Home from './home';
 
 
 const mapStateToProps = (state, ownProps) => {
-  console.log(state);
   return ({
-    background: 'stars',
     blogs: state.blogs
   });
 };
