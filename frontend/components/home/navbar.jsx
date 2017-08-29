@@ -20,7 +20,7 @@ class NavBar extends React.Component {
           <span className="navbar-toggler-icon navbar-light"></span>
         </button>
 
-        <a className="navbar-brand" href="#" id="logo">
+        <a onClick={e => this.toggle("home")} className="navbar-brand" href="#" id="logo">
           <img src="http://res.cloudinary.com/dn4jhnh54/image/upload/v1503777268/aaron-logo1_qxqqek.png" width="40" height="40"
             className="d-inline-block align-top"
             alt="Aaron Farber logo which is a pyramid made up of vertical stripes"/>
