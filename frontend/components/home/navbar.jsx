@@ -5,6 +5,7 @@ class NavBar extends React.Component {
   constructor(props) {
     super(props);
     this.linkAndToggle = this.linkAndToggle.bind(this);
+    this.toggle = this.props.toggle.bind(this);
 
   }
 
@@ -41,8 +42,8 @@ class NavBar extends React.Component {
           <div className='expand-effect'>
 
             <ul className="nav navbar-nav">
-              <li><Link to={"dev"}>&nbsp;Developer &nbsp;<span className="sr-only">(current)</span></Link></li>
-              <li onClick={this.linkAndToggle("dev")}><a href="#">&nbsp;Teacher &nbsp;</a></li>
+              <li onClick={e => this.toggle("dev")}><Link to={"dev"}>&nbsp;Developer &nbsp;<span className="sr-only">(current)</span></Link></li>
+              <li onClick={e => this.toggle("dev")}><a href="#">&nbsp;Teacher &nbsp;</a></li>
               <li><a href="#">&nbsp;Resume &nbsp;</a></li>
               <li><a href="#">&nbsp;Musings &nbsp;</a></li>
             </ul>
