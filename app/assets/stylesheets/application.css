@@ -122,8 +122,10 @@ nav.navbar.navbar-toggleable-md.navbar-light.bg-faded {
   display:block;
 }
 
+
+
 .stars {
-  transition: background-color 1s ease;
+  transition: background-image 1s ease;
   background:#000 url('stars.png') repeat top center;
   z-index:0;
 }
@@ -213,7 +215,7 @@ p.lead {
 
 div.contact-info p {
   color: #efefef;
-  font-size: 17px;
+  font-size: 16px;
   font-family: 'Mukta Mahee', sans-serif;
 }
 
@@ -274,6 +276,11 @@ div.contact-info {
 }
 
 div.dev-page {
-  transition: background-color 1.5s ease;
+  transition: background-color 1.25s ease;
+  -webkit-transition: background-color 1.25s ease;
   background-color: red;
+}
+
+div.stars, div.twinkling {
+  transition-duration: 1s;
 }

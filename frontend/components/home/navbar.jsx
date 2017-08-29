@@ -33,7 +33,7 @@ class NavBar extends React.Component {
 
             <ul className="nav navbar-nav">
               <li onClick={e => this.toggle("dev")}><Link to={"dev"}>&nbsp;Developer &nbsp;<span className="sr-only">(current)</span></Link></li>
-              <li onClick={e => this.toggle("dev")}><a href="#">&nbsp;Teacher &nbsp;</a></li>
+              <li onClick={e => this.toggle("dev")}><Link to={"dev"}>&nbsp;Teacher &nbsp;</Link></li>
               <li><a href="#">&nbsp;Resume &nbsp;</a></li>
               <li><a href="#">&nbsp;Musings &nbsp;</a></li>
             </ul>
