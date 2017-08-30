@@ -26,8 +26,9 @@ class Body extends React.Component {
         );
       case "dev":
         return(
-          <div className="dev-page">
-          </div>
+            <div className="live-coding">
+              <h1 id="overlay"></h1>
+            </div>
         );
       default:
         return (

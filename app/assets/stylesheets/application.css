@@ -111,7 +111,7 @@ nav.navbar.navbar-toggleable-md.navbar-light.bg-faded {
     to {background-position:-10000px 5000px;}
 }
 
-.stars, .twinkling, .dev-page {
+.stars, .twinkling, .live-coding, #overlay {
   position:absolute;
   top:0;
   left:0;
@@ -122,6 +122,16 @@ nav.navbar.navbar-toggleable-md.navbar-light.bg-faded {
   display:block;
 }
 
+.live-coding {
+  background:  url('singleline.gif') no-repeat center center fixed;
+  background-size: cover;
+  z-index:0;
+}
+
+#overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
 
 
 .stars {
@@ -129,6 +139,8 @@ nav.navbar.navbar-toggleable-md.navbar-light.bg-faded {
   background:#000 url('stars.png') repeat top center;
   z-index:0;
 }
+
+
 
 .twinkling{
   transition: background-color 1s ease;
