@@ -4,6 +4,10 @@ font-family: 'Slabo 27px', serif;
 font-family: 'Raleway', sans-serif;
 */
 
+body {
+  height: 100%;
+}
+
 div {
   border-color: black;
 }
@@ -137,9 +141,8 @@ span#name:hover, span#name:active, span#name:focus {
 }
 
 .live-coding {
-  background:  url('skills1.gif');
+  background: url('skills1.gif') no-repeat center center fixed;
   background-size: cover;
-  z-index:0;
 }
 
 #overlay {
@@ -311,6 +314,9 @@ div.stars, div.twinkling {
   transition-duration: 1s;
 }
 
-div.skill-list {
-  list-syle: none;
+div#js {
+  height: 25px;
+  width: 25px;
+  background: url("js-logo.png");
+  background-size: cover;
 }
