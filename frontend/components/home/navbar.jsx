@@ -32,10 +32,10 @@ class NavBar extends React.Component {
           <div className='expand-effect'>
 
             <ul className="nav navbar-nav">
-              <li onClick={e => this.toggle("dev")}><Link to={"dev"}>&nbsp;Developer &nbsp;<span className="sr-only">(current)</span></Link></li>
-              <li onClick={e => this.toggle("dev")}><Link to={"dev"}>&nbsp;Teacher &nbsp;</Link></li>
-              <li><a href="#">&nbsp;Resume &nbsp;</a></li>
-              <li><a href="#">&nbsp;Musings &nbsp;</a></li>
+              <li id="list-item" onClick={e => this.toggle("dev")}><Link to={"dev"}>&nbsp;Developer &nbsp;<span className="sr-only">(current)</span></Link></li>
+              <li id="list-item" onClick={e => this.toggle("dev")}><Link to={"dev"}>&nbsp;Teacher &nbsp;</Link></li>
+              <li id="list-item"><a href="#">&nbsp;Resume &nbsp;</a></li>
+              <li id="list-item"><a href="#">&nbsp;Musings &nbsp;</a></li>
             </ul>
 
           </div>

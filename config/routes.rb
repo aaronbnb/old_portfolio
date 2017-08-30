@@ -4,4 +4,5 @@ Rails.application.routes.draw do
 
   resources :blogs, only: [:index, :create, :update, :show]
   resources :comments, only: [:index, :create, :destroy, :show, :update, :edit]
+  resources :projects, only: [:index, :create, :destroy, :show, :update, :edit]
 end
