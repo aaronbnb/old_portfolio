@@ -10,46 +10,36 @@ class Dev extends React.Component {
     console.log(this.props);
     return (
       <div className='dev-container'>
-        <div className='skills'>
+        <div id="intro">
+          <h1 id="my-work">My Work</h1>
+        </div>
+        <div className="card">
+          <div className="card-block">
+            <h4 className="card-title">Card title</h4>
+            <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" className="card-link">Card link</a>
+          </div>
+        </div>
 
-              <ul className="list-group">
-                <li className="list-group-item">
-                  <div id="html5-icon"></div>
-                  HTML5
-                </li>
-                <li className="list-group-item">
-                  <div id="css3-icon"></div>
-                  CSS3
-                </li>
-                <li className="list-group-item">
-                  <div id="js-icon"></div>
-                  JavaScript
-                  <span id="es6">ES6</span>
-                </li>
-                <li className="list-group-item">
-                  <div id="access-icon"></div>
-                  Web Accessibility
-                </li>
-                <li className="list-group-item">
-                  <div id="gcloud-icon"></div>
-                  Google Cloud
-                </li>
-                <li className="list-group-item">
-                  <div id="react-icon"></div>
-                  React / React Native
-                </li>
-                <li className="list-group-item">
-                  <div id="ror-icon"></div>
-                  Ruby on Rails
-                </li>
-                <li className="list-group-item">
-                  <div id="sql-icon"></div>
-                  SQL
-                </li>
-              </ul>
+        <div className="card">
+          <div className="card-block">
+            <h4 className="card-title">Card title</h4>
+            <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" className="card-link">Card link</a>
+          </div>
+        </div>
 
-                    </div>
-                  </div>
+        <div className="card">
+          <div className="card-block">
+            <h4 className="card-title">Card title</h4>
+            <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" className="card-link">Card link</a>
+          </div>
+        </div>
+      </div>
     );
   }
 }

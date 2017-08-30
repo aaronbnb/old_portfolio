@@ -55,6 +55,10 @@ a.navbar-brand {
     min-height: 125px;
   }
 
+  div.dev-container {
+    margin-top: 25px;
+  }
+
 }
 
 @media (min-width: 990px) {
@@ -66,10 +70,6 @@ a.navbar-brand {
   div.expand-effect {
     margin-left: 18%;
     margin-top: 10px;
-  }
-
-  div.dev-container {
-    margin-top: 20px;
   }
 }
 
@@ -227,6 +227,9 @@ ul.nav.navbar-nav li a {
 
 div.dev-container {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   z-index: 4;
 }
 
@@ -319,4 +322,10 @@ div#js {
   width: 25px;
   background: url("js-logo.png");
   background-size: cover;
+}
+
+div.card {
+  max-width: 600px;
+  padding-bottom: 10px;
+  padding-bottom: 10px;
 }
