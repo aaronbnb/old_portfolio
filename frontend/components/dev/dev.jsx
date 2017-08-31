@@ -15,10 +15,20 @@ class Dev extends React.Component {
         </div>
         <div className="card">
           <div className="card-block">
-            <h4 className="card-title">Card title</h4>
-            <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" className="card-link">Card link</a>
+            <div className="top-box">
+              <div className="project-pic"></div>
+              <div className="project-tagline">
+                <h4 className="card-title">Indieclono</h4>
+                <h6 className="card-subtitle mb-2 text-muted">HTML/CSS, JavaScript, React/Redux, Rails, Webpack</h6>
+              </div>
+          </div>
+            <p className="card-text">A full-stack fundraising platform inspired by Indiegogo</p>
+            <a href="#" className="card-link">
+              <i id="link-icon" className="fa fa-link" aria-hidden="true"></i>
+            </a>
+            <a href="#" className="card-link">
+              <i id="gh-icon" className="fa fa-github" aria-hidden="true"></i>
+            </a>
           </div>
         </div>
 
