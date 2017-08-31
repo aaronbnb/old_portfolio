@@ -28,8 +28,8 @@ class Dev extends React.Component {
             </div>
               <div className="project-tagline">
                 <h4 className="card-title">Indieclono</h4>
-                <h6 className="card-subtitle mb-2 text-muted">HTML/CSS, JavaScript, React/Redux, Rails, Webpack</h6>
                 <p className="card-text">A full-stack fundraising platform inspired by Indiegogo</p>
+                <h6 className="card-subtitle mb-2 text-muted">HTML/CSS, JavaScript, React/Redux, Rails, Webpack</h6>
               </div>
             </div>
         </div>
