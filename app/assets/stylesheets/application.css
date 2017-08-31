@@ -343,6 +343,9 @@ div.card {
   margin-left: 20px;
   margin-right: 20px;
   border: 2px solid lightgrey;
+  border-radius: 1px;
+  background-color: #efefef;
+  box-shadow: 0 1px 0 grey;
 }
 
 div.project-links {
@@ -355,7 +358,7 @@ div.project-links {
 div.card-block {
   display: flex;
   align-items: center;
-  padding: .75rem;
+  padding: .6rem;
 }
 
 div.top-box {
@@ -366,7 +369,7 @@ div.top-box {
 div.project-pic {
   height: 75px;
   width: 75px;
-  border: 5px solid #efefef;
+  border: 5px solid #BDCCC8;
   border-radius: 2px;
   box-shadow: 0 1px 0 lightgrey;
   background: url("icons/html.png");
@@ -376,7 +379,6 @@ div.project-pic {
 div.project-tagline {
   padding-left: 10px;
   display: block;
-  text-align: center;
   width: 100%;
 }
 
@@ -385,18 +387,24 @@ a.card-link {
 }
 
 p.card-text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
   margin-top: 5px;
+  color: #636363;
 }
 
 h4.card-title {
   font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
   letter-spacing: 1px;
   margin: 0;
 }
 
 h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
   margin: 0;
+  color: #e2e2e2;
+  font-size: 14px;
+}
+
+h6.card-subtitle.mb-2.text-muted {
+    margin: 7px 0px 0px 0px;
 }
