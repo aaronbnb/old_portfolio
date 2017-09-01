@@ -3,19 +3,20 @@ import {withRouter, Link, hashHistory } from 'react-router';
 import NavBarContainer from './navbar_container';
 
 class Body extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.background = this.background.bind(this);
     this.state = {background: "home"};
     this.toggleBackground = this.toggleBackground.bind(this);
   }
 
   toggleBackground(style) {
-    console.log(style);
     this.setState({background: style});
   }
 
   background() {
+    console.log(this.props.location);
+    console.log(this.props.location.pathname);
     switch(this.state.background) {
       case "home":
         return (
