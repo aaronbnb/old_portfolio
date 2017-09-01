@@ -11,6 +11,7 @@ class NavBar extends React.Component {
   }
 
   toggleDesign(path) {
+    this.setState({nav: path});
     this.props.toggle(path);
   }
 
@@ -19,8 +20,6 @@ class NavBar extends React.Component {
   }
 
   render() {
-    console.log(this.props.location);
-    console.log(this.props);
     return(
       <nav className="navbar navbar-toggleable-md navbar-light bg-faded"
         id={this.state.nav}>

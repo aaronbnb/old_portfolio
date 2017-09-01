@@ -15,8 +15,7 @@ class Body extends React.Component {
   }
 
   background() {
-    console.log(this.props.location);
-    console.log(this.props.location.pathname);
+    console.log(this.props);
     switch(this.state.background) {
       case "home":
         return (
@@ -28,7 +27,6 @@ class Body extends React.Component {
       case "dev":
         return(
             <div className="live-coding">
-              <h1 id="overlay"></h1>
             </div>
         );
       default:
