@@ -29,6 +29,11 @@ class Body extends React.Component {
             <div className="live-coding">
             </div>
         );
+      case "teach":
+        return(
+            <div className="live-coding">
+            </div>
+        );
       default:
         return (
           <div>

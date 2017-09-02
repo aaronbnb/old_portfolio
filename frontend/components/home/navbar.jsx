@@ -11,8 +11,12 @@ class NavBar extends React.Component {
   }
 
   toggleDesign(path) {
-    this.setState({nav: path});
     this.props.toggle(path);
+    if (path === 'teach') {
+      path = 'dev';
+    }
+    this.setState({nav: path});
+
   }
 
   componentDidMount() {
@@ -41,7 +45,7 @@ class NavBar extends React.Component {
 
             <ul className="nav navbar-nav">
               <li id="list-item" onClick={e => this.toggleDesign("dev")}><Link to={"dev"}>&nbsp;Developer &nbsp;<span className="sr-only">(current)</span></Link></li>
-              <li id="list-item" onClick={e => this.toggleDesign("dev")}><Link to={"dev"}>&nbsp;Teacher &nbsp;</Link></li>
+              <li id="list-item" onClick={e => this.toggleDesign("teach")}><Link to={"teach"}>&nbsp;Teacher &nbsp;</Link></li>
               <li id="list-item"><a href="#">&nbsp;Resume &nbsp;</a></li>
               <li id="list-item"><a href="#">&nbsp;Musings &nbsp;</a></li>
             </ul>
