@@ -184,9 +184,17 @@ span#name:hover, span#name:active, span#name:focus {
 
 div.teach-container {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
   padding: 50px;
   opacity: 0.9;
+}
+
+div.test-prep {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 600px;
 }
 
 .test {
@@ -470,4 +478,31 @@ nav#dev {
   border: 1px solid transparent;
   box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06), 0 4px 5px 0 rgba(0,0,0,0.06), 0 1px 10px 0 rgba(0,0,0,0.08);
   min-height: 80px;
+}
+
+div#services {
+  background-color: #f5f6f7;
+  padding: 20px;
+
+}
+h2.services-title {
+  color: #06BC9B;
+}
+
+hr#divider {
+  border-color: #06BC9B;
+  color:#06BC9B;
+}
+i.fa.fa-certificate {
+  color:#06BC9B;
+}
+
+li.list-group-item {
+  border: 0px;
+  background-color: transparent;
+}
+
+.mock {
+    background-image: -webkit-linear-gradient(left,#06BC9B,#1ba49c);
+    background-color: #06BC9B; 
 }

@@ -10,25 +10,56 @@ class Teach extends React.Component {
 
     return(
       <div className="teach-container">
-        <div className="test-prep-header">
-          <h2 className="test-prep-title">Test Prep, Admissions Consulting, Coding Bootcamp Prep</h2>
+        <div id="services">
+          <h2 className="services-title">Services</h2>
+          <hr className="my-4" id="divider"/>
+            <ul className="list-group">
+              <li className="list-group-item justify-content-between">
+                <i className="fa fa-certificate" aria-hidden="true"></i>
+                Test Prep Tutoring
+                
+              </li>
+                <li className="list-group-item justify-content-between">
+                  <i className="fa fa-certificate" aria-hidden="true"></i>
+                  Personal Statement Review
+
+                </li>
+            </ul>
         </div>
-        <div className="test-prep">
-          <div className="test">SAT</div>
-          <div className="test">ACT</div>
-          <div className="test">GRE</div>
-        </div>
-        <div className="test-prep">
-          <div className="test2">AP Computer Science</div>
-          <div className="test2">Personal Statement Review</div>
+        <div className="card" id="services">
+          <h2 className="test-prep-title">Services</h2>
+          <hr className="my-4"/>
+            <ul className="list-group">
+              <li className="list-group-item justify-content-between">
+                Cras justo odio
+                <span className="badge badge-default badge-pill">14</span>
+              </li>
+              <li className="list-group-item justify-content-between">
+                Dapibus ac facilisis in
+                <span className="badge badge-default badge-pill">2</span>
+              </li>
+              <li className="list-group-item justify-content-between">
+                Morbi leo risus
+                <span className="badge badge-default badge-pill">1</span>
+              </li>
+            </ul>
         </div>
 
+
+        <div className="jumbotron">
+  <h1 className="display-3">Hello, world!</h1>
+  <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <hr className="my-4"/>
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  <p className="lead">
+    <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  </p>
+  </div>
+
         <div className="test-prep-bio-container">
-          <p id="test-prep-bio">Standardized testing is an opportunity to dramatically
-            improve college or grad school applications in just a short time. Without a doubt,
-            these tests are an imperfect measure and we attach too much significance to them.
-            Colleges and grad schools weigh these four hour tests sometimes more
-            for four years of school.</p>
+          <p id="test-prep-bio">Colleges and grad schools weigh these four hour tests sometimes more
+            for four years of school. Standardized testing is an opportunity to learn and dramatically boost your applications
+          in a short time.</p>
           <p id="test-prep-bio">Test prep doesn't have to be just another hurdle to admission.
           For my test prep classes, students learn new ways to interpret arguments and bridge the gap between
           equations and the world around us. I believe test prep has value far beyond the tests.
@@ -57,3 +88,41 @@ class Teach extends React.Component {
 }
 
 export default Teach;
+//
+//
+// <div className="card" id="services">
+//   <h2 className="test-prep-title">Services</h2>
+//   <hr className="my-4"/>
+//     <ul className="list-group">
+//       <li className="list-group-item justify-content-between">
+//         Cras justo odio
+//         <span className="badge badge-default badge-pill">14</span>
+//       </li>
+//       <li className="list-group-item justify-content-between">
+//         Dapibus ac facilisis in
+//         <span className="badge badge-default badge-pill">2</span>
+//       </li>
+//       <li className="list-group-item justify-content-between">
+//         Morbi leo risus
+//         <span className="badge badge-default badge-pill">1</span>
+//       </li>
+//     </ul>
+// </div>
+// <div className="card" id="services">
+//   <h2 className="test-prep-title">Services</h2>
+//   <hr className="my-4"/>
+//     <ul className="list-group">
+//       <li className="list-group-item justify-content-between">
+//         Cras justo odio
+//         <span className="badge badge-default badge-pill">14</span>
+//       </li>
+//       <li className="list-group-item justify-content-between">
+//         Dapibus ac facilisis in
+//         <span className="badge badge-default badge-pill">2</span>
+//       </li>
+//       <li className="list-group-item justify-content-between">
+//         Morbi leo risus
+//         <span className="badge badge-default badge-pill">1</span>
+//       </li>
+//     </ul>
+// </div>
