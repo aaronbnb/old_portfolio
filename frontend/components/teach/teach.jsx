@@ -10,40 +10,90 @@ class Teach extends React.Component {
 
     return(
       <div className="teach-container">
-        <div id="services">
+        <div id="sidebar-item">
           <h2 className="services-title">Services</h2>
           <hr className="my-4" id="divider"/>
-            <ul className="list-group">
-              <li className="list-group-item justify-content-between">
+            <div id="services-list">
+              <div className="services-list-item">
                 <i className="fa fa-certificate" aria-hidden="true"></i>
-                Test Prep Tutoring
-                
-              </li>
-                <li className="list-group-item justify-content-between">
-                  <i className="fa fa-certificate" aria-hidden="true"></i>
-                  Personal Statement Review
+                <span>Test Prep Tutoring</span>
+                <div>
+                  <ul id="tests">
+                    <li>SAT</li>
+                    <li>ACT</li>
+                    <li>GRE</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="services-list-item">
+                <i className="fa fa-certificate" aria-hidden="true"></i>
+                <span>College Admissions Advising</span>
 
-                </li>
-            </ul>
+              </div>
+              <div className="services-list-item">
+                <i className="fa fa-certificate" aria-hidden="true"></i>
+                <span>Personal Statement Consultation</span>
+
+              </div>
+              <div className="services-list-item">
+                <i className="fa fa-certificate" aria-hidden="true"></i>
+                <span>Coding Bootcamp Prepwork</span>
+                <ul id="tests">
+                  <li>JavaScript</li>
+                  <li>Python</li>
+                  <li>Ruby</li>
+                </ul>
+              </div>
+            </div>
         </div>
-        <div className="card" id="services">
-          <h2 className="test-prep-title">Services</h2>
-          <hr className="my-4"/>
-            <ul className="list-group">
-              <li className="list-group-item justify-content-between">
-                Cras justo odio
-                <span className="badge badge-default badge-pill">14</span>
-              </li>
-              <li className="list-group-item justify-content-between">
-                Dapibus ac facilisis in
-                <span className="badge badge-default badge-pill">2</span>
-              </li>
-              <li className="list-group-item justify-content-between">
-                Morbi leo risus
-                <span className="badge badge-default badge-pill">1</span>
-              </li>
-            </ul>
+
+        <div id="sidebar-item">
+          <h2 className="services-title">Pricing</h2>
+          <hr className="my-4" id="divider"/>
+            <div id="services-list">
+              <div className="services-list-item">
+                <i className="fa fa-certificate" aria-hidden="true"></i>
+                <span>SAT / ACT In-Person Class Packages</span>
+                <div>
+                  <ul id="class-rates">
+                    <li><span id="class-count">4 Three Hour Sessions</span><span className="money"><span id="money-sign">$</span>425</span></li>
+                    <li><span id="class-count">4 Two Hour Sessions</span><span className="money"><span id="money-sign">$</span>320</span></li>
+                    <li><span id="class-count">4 One Hour Sessions</span><span className="money"><span id="money-sign">$</span>180</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div className="services-list-item">
+                <i className="fa fa-certificate" aria-hidden="true"></i>
+                <span>Individual tutoring session</span>
+                <div>
+                  <ul id="class-rates">
+                    <li><span id="class-count">In-Person</span><span className="money"><span id="money-sign">$</span>50<span id="hour">/ hour</span></span></li>
+                    <li><span id="class-count">Google Hangouts/Skype</span><span className="money"><span id="money-sign">$</span>35<span id="hour">/ hour</span></span></li>
+                  </ul>
+                </div>
+              </div>
+              <div className="services-list-item">
+                <i className="fa fa-certificate" aria-hidden="true"></i>
+                <span>College Admissions Advising</span>
+
+              </div>
+              <div className="services-list-item">
+                <i className="fa fa-certificate" aria-hidden="true"></i>
+                <span>Personal Statement Consultation</span>
+
+              </div>
+              <div className="services-list-item">
+                <i className="fa fa-certificate" aria-hidden="true"></i>
+                <span>Coding Bootcamp Prepwork</span>
+                <ul id="tests">
+                  <li>JavaScript</li>
+                  <li>Python</li>
+                  <div id="ruby"><li>Ruby</li></div>
+                </ul>
+              </div>
+            </div>
         </div>
+
 
 
         <div className="jumbotron">

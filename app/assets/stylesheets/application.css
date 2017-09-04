@@ -472,17 +472,20 @@ h6.card-subtitle.mb-2.text-muted {
 }
 
 nav#dev {
-  background: #485563;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: -webkit-linear-gradient(left,#06BC9B,#1ba49c);
+  background-color: #06BC9B;
   border: 1px solid transparent;
   box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06), 0 4px 5px 0 rgba(0,0,0,0.06), 0 1px 10px 0 rgba(0,0,0,0.08);
   min-height: 80px;
 }
 
-div#services {
+div#sidebar-item {
   background-color: #f5f6f7;
   padding: 20px;
+  border: 2px solid transparent;
+  border-radius: 1px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06), 0 4px 5px 0 rgba(0,0,0,0.06), 0 1px 10px 0 rgba(0,0,0,0.08);
 
 }
 h2.services-title {
@@ -495,14 +498,95 @@ hr#divider {
 }
 i.fa.fa-certificate {
   color:#06BC9B;
+  padding-left: 10px;
 }
 
-li.list-group-item {
-  border: 0px;
-  background-color: transparent;
+div.services-list-item {
+  padding-bottom: 12px;
+}
+
+.services-list-item span {
+  color: #525d68;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.services-list-item span:hover {
+  color: #06BC9B;
+}
+
+ul#tests {
+  display: flex;
+  margin: 0px;
+  padding-left: 35px;
+}
+
+ul#tests li {
+  padding-right: 10px;
+  list-style: none;
+  font-size: 18px;
+  color: #878787;
+}
+
+ul#tests li:hover{
+  color: #06ddb6;
 }
 
 .mock {
     background-image: -webkit-linear-gradient(left,#06BC9B,#1ba49c);
-    background-color: #06BC9B; 
+    background-color: #06BC9B;
+}
+
+div#navbar-container {
+  max-height: 167px !important;
+    overflow: hidden;
+}
+
+
+nav.navbar.navbar-toggleable-md.navbar-light.bg-faded {
+  min-height: 100px;
+}
+
+
+ul#class-rates {
+  list-style: none;
+  list-style-position:inside;
+  margin:0;
+  padding: 0px 4px 0px 4px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+ul#class-rates li {
+  list-style: none;
+  font-size: 16px;
+  padding:0px 10px 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  list-style-position:inside;
+        margin:0;
+        padding:0;
+
+}
+
+span#hour {
+  font-size: 12px;
+  margin: 0;
+  padding-left: 2px;
+}
+
+span#money-sign {
+  font-size: 12px;
+  color: #878787;
+}
+
+span.money span {
+    margin: 0px;
+    padding: 0px 0px 0px 2px;
+}
+
+span#class-count {
+  font-size: 16px;
 }
