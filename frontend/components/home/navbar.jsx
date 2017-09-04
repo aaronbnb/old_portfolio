@@ -29,7 +29,7 @@ class NavBar extends React.Component {
         id={this.state.nav}>
 
         <button className="navbar-toggler navbar-toggler-left" id="cmon" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon navbar-light"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
 
         <a onClick={e => this.toggleDesign("home")} className="navbar-brand" href="#" id="logo">

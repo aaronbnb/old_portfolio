@@ -3,9 +3,7 @@
 font-family: 'Slabo 27px', serif;
 font-family: 'Raleway', sans-serif;
 */
-html {
-  height: 100%;
-}
+
 body {
   height: 100%;
 }
@@ -16,6 +14,7 @@ div {
 
 button#cmon {
   background: transparent;
+  border: transparent;
   outline: none;
   cursor: pointer;
 }
@@ -71,6 +70,10 @@ a.navbar-brand {
     min-height: 125px;
   }
 
+  div.dev-container {
+    margin-top: 25px;
+  }
+
   div.project-pic {
     height: 50px;
     width: 50px;
@@ -101,7 +104,7 @@ a.navbar-brand {
     z-index: 6;
   }
   div.expand-effect {
-    margin-left: 18%;
+    margin-left: 225px;
     margin-top: 10px;
   }
 }
@@ -176,7 +179,7 @@ span#name:hover, span#name:active, span#name:focus {
 
 .live-coding {
   background: url('fractal.png') repeat top center;
-  opacity: 0.9;
+  opacity: 0.7;
   min-height: 700px;
 }
 
@@ -203,7 +206,6 @@ div.test-prep {
 
 
 .stars {
-  transition: background-image 1s ease;
   background:#000 url('stars.png') repeat top center;
   z-index:0;
 }
@@ -211,8 +213,8 @@ div.test-prep {
 
 
 .twinkling{
-  transition: background-color 1s ease;
-  background:transparent url('original.png') repeat top center;
+  background:transparent url('original.png') repeat top center 1s ease;
+  transition-delay: 1s;
   z-index:1;
 
   -moz-animation:move-twink-back 400s linear infinite;
@@ -276,12 +278,8 @@ ul.nav.navbar-nav li a {
   color: white;
 }
 
-div.teach-container, div.dev-container {
-  position: relative;
-  top: 100px;
-}
-
 div.dev-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -362,9 +360,6 @@ div.contact-info {
   min-width: 250px;
 }
 
-div.stars, div.twinkling {
-  transition-duration: 1s;
-}
 
 div#js {
   height: 25px;
@@ -492,6 +487,7 @@ div#sidebar-item {
 }
 h2.services-title {
   color: #1ba49c;
+      text-align: center;
 }
 
 h2.services-title:hover {
@@ -548,14 +544,8 @@ ul#tests li:hover{
 div#navbar-container {
   max-height: 167px !important;
     overflow: hidden;
-  position: fixed;
-  top: 0px;
-  z-index: 10;
-  width: 100%;
 }
-div#teach {
-  min-height: 1000px;
-}
+
 
 nav.navbar.navbar-toggleable-md.navbar-light.bg-faded {
   min-height: 100px;
@@ -567,8 +557,8 @@ ul#class-rates {
   list-style-position:inside;
   margin:0;
   padding: 0px 4px 0px 4px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 6%;
+  margin-right: 6%;
 }
 
 
@@ -612,4 +602,11 @@ ul#class-rates span {
 
 ul#class-rates span:hover {
   color: #06ddb6;
+}
+
+@media only screen and (max-width: 435px) {
+  ul#class-rates {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
 }
