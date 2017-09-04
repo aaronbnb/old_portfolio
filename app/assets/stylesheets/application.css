@@ -3,7 +3,9 @@
 font-family: 'Slabo 27px', serif;
 font-family: 'Raleway', sans-serif;
 */
-
+html {
+  height: 100%;
+}
 body {
   height: 100%;
 }
@@ -67,10 +69,6 @@ a.navbar-brand {
 
   .navbar-collapse {
     min-height: 125px;
-  }
-
-  div.dev-container {
-    margin-top: 25px;
   }
 
   div.project-pic {
@@ -178,7 +176,7 @@ span#name:hover, span#name:active, span#name:focus {
 
 .live-coding {
   background: url('fractal.png') repeat top center;
-  opacity: 0.7;
+  opacity: 0.9;
   min-height: 700px;
 }
 
@@ -278,8 +276,12 @@ ul.nav.navbar-nav li a {
   color: white;
 }
 
-div.dev-container {
+div.teach-container, div.dev-container {
   position: relative;
+  top: 100px;
+}
+
+div.dev-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -489,6 +491,11 @@ div#sidebar-item {
 
 }
 h2.services-title {
+  color: #1ba49c;
+}
+
+h2.services-title:hover {
+
   color: #06BC9B;
 }
 
@@ -541,8 +548,14 @@ ul#tests li:hover{
 div#navbar-container {
   max-height: 167px !important;
     overflow: hidden;
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
 }
-
+div#teach {
+  min-height: 1000px;
+}
 
 nav.navbar.navbar-toggleable-md.navbar-light.bg-faded {
   min-height: 100px;
@@ -565,6 +578,8 @@ ul#class-rates li {
   padding:0px 10px 0px 10px;
   display: flex;
   justify-content: space-between;
+
+    align-items: center;
   list-style-position:inside;
         margin:0;
         padding:0;
@@ -589,4 +604,12 @@ span.money span {
 
 span#class-count {
   font-size: 16px;
+}
+ul#class-rates span {
+  color: #878787;
+}
+
+
+ul#class-rates span:hover {
+  color: #06ddb6;
 }

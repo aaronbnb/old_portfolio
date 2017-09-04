@@ -53,7 +53,7 @@ class Teach extends React.Component {
             <div id="services-list">
               <div className="services-list-item">
                 <i className="fa fa-certificate" aria-hidden="true"></i>
-                <span>SAT / ACT In-Person Class Packages</span>
+                <span>SAT / ACT Class Packages</span>
                 <div>
                   <ul id="class-rates">
                     <li><span id="class-count">4 Three Hour Sessions</span><span className="money"><span id="money-sign">$</span>425</span></li>
@@ -64,7 +64,7 @@ class Teach extends React.Component {
               </div>
               <div className="services-list-item">
                 <i className="fa fa-certificate" aria-hidden="true"></i>
-                <span>Individual tutoring session</span>
+                <span>Individual Tutoring Session</span>
                 <div>
                   <ul id="class-rates">
                     <li><span id="class-count">In-Person</span><span className="money"><span id="money-sign">$</span>50<span id="hour">/ hour</span></span></li>
@@ -80,8 +80,10 @@ class Teach extends React.Component {
               <div className="services-list-item">
                 <i className="fa fa-certificate" aria-hidden="true"></i>
                 <span>Personal Statement Consultation</span>
-
-              </div>
+                <ul id="class-rates">
+                  <li><span id="class-count">Comprehensive Review</span><span className="money"><span id="money-sign">$</span>75</span></li>
+                </ul>
+            </div>
               <div className="services-list-item">
                 <i className="fa fa-certificate" aria-hidden="true"></i>
                 <span>Coding Bootcamp Prepwork</span>
