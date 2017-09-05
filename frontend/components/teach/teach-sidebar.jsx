@@ -65,8 +65,8 @@ class TeachSidebar extends React.Component {
                 <span>Individual Tutoring Sessions</span>
                 <div>
                   <ul id="class-rates">
-                    <li><span id="class-count">In-Person</span><span className="money"><span id="money-sign">$</span>50<span id="hour">/ hour</span></span></li>
-                    <li><span id="class-count">Google Hangouts/Skype</span><span className="money"><span id="money-sign">$</span>35<span id="hour">/ hour</span></span></li>
+                    <li><span id="class-count">In-Person</span><span className="money"><span id="money-sign">$</span>65<span id="hour">/ hour</span></span></li>
+                    <li><span id="class-count">Google Hangouts/Skype</span><span className="money"><span id="money-sign">$</span>45<span id="hour">/ hour</span></span></li>
                   </ul>
                 </div>
               </div>
@@ -79,7 +79,13 @@ class TeachSidebar extends React.Component {
                 <i className="fa fa-certificate" aria-hidden="true"></i>
                 <span>Personal Statement Consultation</span>
                 <ul id="class-rates">
-                  <li><span id="class-count">Comprehensive Review</span><span className="money"><span id="money-sign">$</span>75</span></li>
+                  <li><span id="class-count">Comprehensive Review</span><span className="money"><span id="money-sign">$</span>150</span></li>
+                  <li><span id="class-notes">3 Sessions:</span></li>
+                </ul>
+                <ul id="class-footnotes">
+                  <li>(1) Brainstorming a Narrative</li>
+                  <li>(2) Feedback and Revision</li>
+                  <li>(3) Final Touches</li>
                 </ul>
             </div>
           </div>

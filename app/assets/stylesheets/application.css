@@ -656,20 +656,15 @@ transform: translateY(0px);
   }
 
   div#teach-text {
-      margin-top: 120px;
+      margin-top: 125px;
   }
-
-  div#teach-text {
-    display: block;
-
-  }
-
 @media (min-width: 751px) {
 
   div#teach-text {
     display: flex;
+
     margin-left: 5%;
-    justify-content: center;
+    justify-content: space-around;
     margin-right: 5%;
   }
 }
@@ -682,7 +677,33 @@ div.test-prep-bio-container {
   border: 1px solid transparent;
   box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06), 0 4px 5px 0 rgba(0,0,0,0.06), 0 1px 10px 0 rgba(0,0,0,0.08);
   background-color: #f5f6f7;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
   padding: 5px;
+  max-width: 750px;
+  min-width: 350px;
+
+}
+
+@media only screen and (max-width: 900px) {
+  div#sidebar {
+  }
+
+  div#sidebar-item {
+    margin: 20px;
+    min-width: 400px;
+  }
+}
+
+span#class-notes {
+    font-size: 15px;
+    color: #a5a5a5;
+}
+
+ul#class-footnotes li {
+  font-size: 13px;
+  color: #afafaf;
+  list-style: none;
+  margin-left: -6px;
 }
