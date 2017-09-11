@@ -203,7 +203,7 @@ div.test-prep {
 
 
 .twinkling{
-  background:transparent url('original.png') repeat top center 1s ease;
+  background: transparent url('original.png') repeat top center;
   transition-delay: 1s;
   z-index:1;
 
@@ -593,6 +593,10 @@ span.money span {
     padding: 0px 0px 0px 2px;
 }
 
+span.money:hover {
+  color: #06ddb6 !important;
+}
+
 span#class-count {
   font-size: 16px;
 }
@@ -656,7 +660,7 @@ transform: translateY(0px);
   }
 
   div#teach-text {
-      margin-top: 125px;
+      margin-top: 132px;
   }
 @media (min-width: 751px) {
 
@@ -669,10 +673,6 @@ transform: translateY(0px);
   }
 }
 
-p.lead {
-  color: black;
-}
-
 div.test-prep-bio-container {
   border: 1px solid transparent;
   box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06), 0 4px 5px 0 rgba(0,0,0,0.06), 0 1px 10px 0 rgba(0,0,0,0.08);
@@ -681,9 +681,10 @@ div.test-prep-bio-container {
   margin-right: 25px;
   margin-bottom: 25px;
   padding: 5px;
-  max-width: 750px;
+  max-width: 765px;
   min-width: 350px;
-
+  padding: 18px;
+  height: 100%;
 }
 
 @media only screen and (max-width: 900px) {
@@ -706,4 +707,31 @@ ul#class-footnotes li {
   color: #afafaf;
   list-style: none;
   margin-left: -6px;
+}
+
+ul#class-footnotes li:hover {
+  color: #06BC9B;
+}
+
+ul#class-rates li span:hover {
+  color: #06BC9B;
+}
+
+p#test-prep-quote {
+  font-family: 'Lato', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 15px 20px 15px 20px;
+  color: #05a88a;
+}
+
+p#test-prep-context {
+    margin-left: 20px;
+    color: #878787;
+    margin-right: 20px;
+}
+
+div#student-testimonies {
+  display: flex;
+  padding: 15px;
 }

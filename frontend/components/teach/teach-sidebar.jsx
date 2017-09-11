@@ -58,6 +58,12 @@ class TeachSidebar extends React.Component {
                     <li><span id="class-count">5 Two Hour Sessions</span><span className="money"><span id="money-sign">$</span>550</span></li>
                     <li><span id="class-count">5 One Hour Sessions</span><span className="money"><span id="money-sign">$</span>300</span></li>
                   </ul>
+                  <ul id="class-footnotes">
+                    <li>All-Inclusive:</li>
+                    <li>Original Course Materials</li>
+                    <li>Study Guide</li>
+                    <li>Homework Assignments</li>
+                  </ul>
                 </div>
               </div>
               <div className="services-list-item">
@@ -72,14 +78,9 @@ class TeachSidebar extends React.Component {
               </div>
               <div className="services-list-item">
                 <i className="fa fa-certificate" aria-hidden="true"></i>
-                <span>College Admissions Advising</span>
-
-              </div>
-              <div className="services-list-item">
-                <i className="fa fa-certificate" aria-hidden="true"></i>
                 <span>Personal Statement Consultation</span>
                 <ul id="class-rates">
-                  <li><span id="class-count">Comprehensive Review</span><span className="money"><span id="money-sign">$</span>150</span></li>
+                  <li><span id="class-count">Comprehensive Review</span><span className="money"><span id="money-sign">$</span>180</span></li>
                   <li><span id="class-notes">3 Sessions:</span></li>
                 </ul>
                 <ul id="class-footnotes">
@@ -88,6 +89,16 @@ class TeachSidebar extends React.Component {
                   <li>(3) Final Touches</li>
                 </ul>
             </div>
+
+            <div className="services-list-item">
+              <i className="fa fa-certificate" aria-hidden="true"></i>
+              <span>Scholarships Available</span>
+              <ul id="class-footnotes">
+                <li>For families on government assistance such</li>
+                <li>as CalFresh or with other proof of need, I</li>
+                <li>offer a 40% discount  on all services.</li>
+              </ul>
+          </div>
           </div>
       </div>
     </div>
