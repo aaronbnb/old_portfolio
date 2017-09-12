@@ -604,11 +604,6 @@ ul#class-rates span {
   color: #878787;
 }
 
-
-ul#class-rates span:hover {
-  color: #06ddb6;
-}
-
 @media only screen and (max-width: 435px) {
   ul#class-rates {
     margin-left: 1%;
@@ -657,6 +652,12 @@ transform: translateY(0px);
   div.teach-container {
     position: relative;
     z-index: 2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   div#teach-text {
@@ -717,11 +718,23 @@ ul#class-rates li span:hover {
   color: #06BC9B;
 }
 
+ul#test-prep-assumptions li {
+  list-style: none;
+  margin-left: -10px;
+  margin-bottom: 8px;
+}
+
+span#assumption {
+  padding: 5px;
+}
+
+
 p#test-prep-quote {
   font-family: 'Lato', sans-serif;
-  font-size: 36px;
+  font-size: 34px;
   font-weight: 700;
-  margin: 15px 20px 15px 20px;
+  margin: 15px 15px 15px 15px;
+  text-align: center;
   color: #05a88a;
 }
 
@@ -734,4 +747,14 @@ p#test-prep-context {
 div#student-testimonies {
   display: flex;
   padding: 15px;
+  border: 1px solid transparent;
+  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06), 0 4px 5px 0 rgba(0,0,0,0.06), 0 1px 10px 0 rgba(0,0,0,0.08);
+  background-color: #f5f6f7;
+  width: 80%;
+  max-width: 1000px;
+}
+
+div.carousel-item {
+  height: 300px;
+  width: 400px;
 }

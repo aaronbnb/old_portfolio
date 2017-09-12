@@ -54,9 +54,9 @@ class TeachSidebar extends React.Component {
                 <span>SAT / ACT Class Packages</span>
                 <div>
                   <ul id="class-rates">
-                    <li><span id="class-count">5 Three Hour Sessions</span><span className="money"><span id="money-sign">$</span>750</span></li>
-                    <li><span id="class-count">5 Two Hour Sessions</span><span className="money"><span id="money-sign">$</span>550</span></li>
-                    <li><span id="class-count">5 One Hour Sessions</span><span className="money"><span id="money-sign">$</span>300</span></li>
+                    <li id="list-item"><span id="class-count">5 Three Hour Sessions</span><span className="money"><span id="money-sign">$</span>750</span></li>
+                    <li id="list-item"><span id="class-count">5 Two Hour Sessions</span><span className="money"><span id="money-sign">$</span>550</span></li>
+                    <li id="list-item"><span id="class-count">5 One Hour Sessions</span><span className="money"><span id="money-sign">$</span>300</span></li>
                   </ul>
                   <ul id="class-footnotes">
                     <li>All-Inclusive:</li>
@@ -94,7 +94,7 @@ class TeachSidebar extends React.Component {
               <i className="fa fa-certificate" aria-hidden="true"></i>
               <span>Scholarships Available</span>
               <ul id="class-footnotes">
-                <li>For families on government assistance such</li>
+                <li>For families on government assistance such\n</li>
                 <li>as CalFresh or with other proof of need, I</li>
                 <li>offer a 40% discount  on all services.</li>
               </ul>
