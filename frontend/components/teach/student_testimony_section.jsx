@@ -7,9 +7,10 @@ class StudentTestimonySection extends React.Component {
   }
 
   componentDidMount() {
+    console.log("mounted");
     setTimeout(1000, function() {
       $('.carousel').carousel({
-      interval: 2000
+      interval: 1400
       });
     });
   }

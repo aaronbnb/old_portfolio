@@ -460,6 +460,7 @@ h6.card-subtitle.mb-2.text-muted {
 
 nav#dev {
   position: fixed;
+  opacity: 0.9;
   width: 100%;
   min-height: 80px;
   background-image: -webkit-linear-gradient(left,#06BC9B,#1ba49c);
@@ -748,13 +749,44 @@ div#student-testimonies {
   display: flex;
   padding: 15px;
   border: 1px solid transparent;
-  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06), 0 4px 5px 0 rgba(0,0,0,0.06), 0 1px 10px 0 rgba(0,0,0,0.08);
   background-color: #f5f6f7;
   width: 80%;
   max-width: 1000px;
 }
 
+div#student-testimony {
+  height: 300px;
+  width: 340px;
+  text-align: center;
+  background-color: #f4f7f9;
+  border: 1px solid transparent;
+  border-radius: 1px;
+  padding: 8px;
+  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06), 0 4px 5px 0 rgba(0,0,0,0.06), 0 1px 10px 0 rgba(0,0,0,0.08);
+}
+
+div#student-testimony:hover {
+  border: 1px solid lightgrey;
+  border-radius: 1px;
+}
+
 div.carousel-item {
   height: 300px;
   width: 400px;
+}
+
+p#date {
+  position: absolute;
+  bottom: 0px;
+  right: 100px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  color: #636363;
+}
+
+span.carousel-control-next-icon {
+  background: url('original.png');
+  background-size: cover;
+  height: 20px;
+  width: 20px;
 }
