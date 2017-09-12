@@ -40,7 +40,7 @@ class StudentTestimonySection extends React.Component {
         </div>
         <div className="carousel-item">
           <div id="student-testimony">
-            <p>He was considerate, knowledgeable, and involved. The class was like three hours,
+            <p>Aaron was considerate, knowledgeable, and involved. The class was like three hours,
               but you wouldn't think so because you could get into the lesson and it was pretty interactive.
             </p>
             <p id="date">Jan. 2017</p>
