@@ -1,12 +1,12 @@
 {
-  "name": "AaronFarber",
+  "name": "aaronbnb",
   "version": "1.0.0",
   "description": "Portfolio Page",
   "repository": {
     "type": "git",
     "url": "https://github.com/aaronbnb/portfolio.git"
   },
-  "author": "Aaron Farber",
+  "author": "",
   "main": "webpack.config.js",
   "directories": {
     "test": "test"
