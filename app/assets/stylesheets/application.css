@@ -677,6 +677,7 @@ transform: translateY(0px);
 
 div.test-prep-bio-container {
   border: 1px solid transparent;
+  font-family: 'Montserrat', sans-serif;
   box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06), 0 4px 5px 0 rgba(0,0,0,0.06), 0 1px 10px 0 rgba(0,0,0,0.08);
   background-color: #f5f6f7;
   margin-left: 25px;
@@ -740,9 +741,9 @@ p#test-prep-quote {
 }
 
 p#test-prep-context {
-    margin-left: 20px;
+    margin-left: 28px;
     color: #878787;
-    margin-right: 20px;
+    margin-right: 28px;
 }
 
 div#student-testimonies {
@@ -757,12 +758,10 @@ div#student-testimonies {
 div#student-testimony {
   height: 270px;
   width: 350px;
-  background-color: #f2f2f2;
   opacity: 0.8;
   border-radius: 1px;
   padding: 8px;
   border: 1px solid transparent;
-  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06), 0 4px 5px 0 rgba(0,0,0,0.06), 0 1px 10px 0 rgba(0,0,0,0.08);
 }
 
 div#student-testimony:hover {
@@ -807,5 +806,5 @@ span.carousel-control-next-icon {
   height: 25px;
   width: 35px;
   background-image: url('icons/right-arrow.png');
-  opacity: 0.8;
+    opacity: 0.8;
 }

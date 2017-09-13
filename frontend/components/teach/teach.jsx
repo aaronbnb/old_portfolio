@@ -19,7 +19,11 @@ class Teach extends React.Component {
 
         <TeachSidebar />
         </div>
-        <StudentTestimonySection />
+        <div className="testimony-container">
+          <h2 className="services-title">Student Reviews</h2>
+          <hr className="my-4" id="divider"/>
+          <StudentTestimonySection />
+        </div>
       </div>
     );
   }
