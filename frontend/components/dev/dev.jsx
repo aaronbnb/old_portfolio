@@ -10,7 +10,8 @@ class Dev extends React.Component {
     return (
       <div className='dev-container'>
         <div id="intro">
-          <h1 id="my-work">M<span id="small">y</span> &nbsp;W<span id="small">ork</span></h1>
+          <h2 className="dev-title">My Work</h2>
+          <hr className="my-4" id="divider"/>
         </div>
         <div className="card">
           <div className="card-block">
@@ -74,6 +75,7 @@ class Dev extends React.Component {
               </div>
             </div>
         </div>
+        <div id="footer">I'm going to fill this whole page. Just watch.</div>
       </div>
     );
   }

@@ -9,7 +9,9 @@ class TeachBio extends React.Component {
 
     return(
       <div className="test-prep-bio-container">
+        <div id="test-prep-quote-container">
         <p id="test-prep-quote">I help students present the best version of themselves</p>
+        </div>
         <p id="test-prep-context">
           Test prep doesn't have to be a burden or just another hurdle to college admission.
           The obligation presents the opportunity to examine and consider how we generate insights

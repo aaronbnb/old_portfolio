@@ -6,6 +6,7 @@ font-family: 'Raleway', sans-serif;
 
 body {
   height: 100%;
+  background-color: #c1c1c1;
 }
 
 button#cmon {
@@ -223,7 +224,7 @@ div#navbarNavAltMarkup {
 
 
 ul.nav.navbar-nav li a {
-  color: #f4f4f4;
+  color: #fcfcfc;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
@@ -276,6 +277,7 @@ div.dev-container {
   flex-direction: column;
   align-items: center;
   z-index: 4;
+  margin-top: 120px;
 }
 
 div.profile-container {
@@ -435,7 +437,7 @@ a.card-link {
 }
 
 p.card-text {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin-top: 5px;
   margin-bottom: 12px;
   color: #636363;
@@ -466,16 +468,16 @@ nav#dev {
   width: 100%;
   min-height: 80px;
   background-image: -webkit-linear-gradient(left,#06BC9B,#1ba49c);
- transition: opacity .5s ease-in;
+ transition: opacity 1.5s ease-in;
   background-color: #06BC9B;
-    transition-duration: 1s;
+    transition-duration: 2s;
   border: 1px solid transparent;
   box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06), 0 4px 5px 0 rgba(0,0,0,0.06), 0 1px 10px 0 rgba(0,0,0,0.08);
 
 }
 
 div#sidebar-item {
-  background-color: #f5f6f7;
+  background-color: #f7f7f7;
   padding: 20px;
   border: 2px solid transparent;
   border-radius: 1px;
@@ -487,11 +489,24 @@ div#sidebar-item {
 h2.services-title {
   color: #1ba49c;
       text-align: center;
+      background: -webkit-linear-gradient(left, #06BC9B,#1ba49c);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
 }
 
 h2.services-title:hover {
 
   color: #06BC9B;
+}
+
+h2.dev-title {
+  color: #06BC9B;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 700;
+  background: -webkit-linear-gradient(left, #06BC9B,#1ba49c);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
 }
 
 hr#divider {
@@ -505,6 +520,14 @@ i.fa.fa-certificate {
 
 div.services-list-item {
   padding-bottom: 12px;
+}
+
+div#footer {
+  margin-top: 1000px;
+  font-size: 20px;
+  background: -webkit-linear-gradient(left, #06BC9B,#1ba49c);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
 }
 
 .services-list-item span {
@@ -548,11 +571,11 @@ div#navbar-container {
 
 nav.navbar.navbar-toggleable-md.navbar-light.bg-faded {
   min-height: 100px;
-  transition-duration: 1s;
+  transition-duration: 1.5s;
 }
 
 nav#dev {
-  transition-duration: 1s;
+  transition-duration: 1.5s;
 }
 
 
@@ -681,7 +704,7 @@ div.test-prep-bio-container {
   border: 1px solid transparent;
   font-family: 'Montserrat', sans-serif;
   box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06), 0 4px 5px 0 rgba(0,0,0,0.06), 0 1px 10px 0 rgba(0,0,0,0.08);
-  background-color: #f5f6f7;
+  background-color: #f7f7f7;
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 25px;
@@ -734,12 +757,17 @@ span#assumption {
 
 
 p#test-prep-quote {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 34px;
   font-weight: 700;
   margin: 15px 15px 15px 15px;
   text-align: center;
-  color: #05a88a;
+}
+
+div#test-prep-quote-container {
+background: -webkit-linear-gradient(left, #06BC9B,#1ba49c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 p#test-prep-context {
@@ -752,7 +780,7 @@ div#student-testimonies {
   display: flex;
   padding: 15px;
   border: 1px solid transparent;
-  background-color: #f5f6f7;
+  background-color: #f7f7f7;
   width: 80%;
   max-width: 1000px;
 }
@@ -760,10 +788,12 @@ div#student-testimonies {
 div.testimony-container {
   border: 1px solid transparent;
   box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06), 0 4px 5px 0 rgba(0,0,0,0.06), 0 1px 10px 0 rgba(0,0,0,0.08);
-  background-color: #f5f6f7;
+  background-color: #f7f7f7;
   padding: 18px;
   width: 90%;
   max-width: 480px;
+  margin-top: 10px;
+  margin-bottom: 35px;
 }
 
 div#student-testimony {
@@ -833,6 +863,25 @@ span.carousel-control-next-icon {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .live-coding {
+    min-height: 3100px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .live-coding {
+    min-height: 3300px;
+  }
+}
+
 div#sidebar {
-  width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+div#sidebar-item {
+  max-width: 375px;
 }
