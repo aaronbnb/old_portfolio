@@ -15,7 +15,6 @@ class Body extends React.Component {
   }
 
   background() {
-    console.log(this.props);
     switch(this.state.background) {
       case "home":
         return (
@@ -49,7 +48,6 @@ class Body extends React.Component {
   }
 
   render() {
-    console.log(this.state);
     return(
       <div>
         {this.background()}
