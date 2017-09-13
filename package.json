@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/aaronbnb/portfolio.git"
   },
-  "author": "",
+  "author": "Aaron Farber",
   "main": "webpack.config.js",
   "directories": {
     "test": "test"
@@ -16,7 +16,6 @@
     "npm": "3.9.3"
   },
   "scripts": {
-    "start": "webpack --watch",
     "postinstall": "webpack"
   },
   "keywords": [],
