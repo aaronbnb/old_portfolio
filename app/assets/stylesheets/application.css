@@ -176,8 +176,10 @@ span#name:hover, span#name:active, span#name:focus {
 .live-coding {
   background: url('fractal.png') repeat top center;
   opacity: 0.7;
-  min-height: 2000px;
+  min-height: 1800px;
 }
+
+
 
 
 
@@ -755,17 +757,22 @@ div#student-testimonies {
   max-width: 1000px;
 }
 
+div.testimony-container {
+  border: 1px solid transparent;
+  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06), 0 4px 5px 0 rgba(0,0,0,0.06), 0 1px 10px 0 rgba(0,0,0,0.08);
+  background-color: #f5f6f7;
+  padding: 18px;
+  width: 90%;
+  max-width: 480px;
+}
+
 div#student-testimony {
   height: 270px;
-  width: 350px;
+  max-width: 350px;
+  width: 90%;
   opacity: 0.8;
   border-radius: 1px;
   padding: 8px;
-  border: 1px solid transparent;
-}
-
-div#student-testimony:hover {
-  box-shadow: 0 4px 8px -1px rgba(0,0,0,0.08), 0 8px 10px 0 rgba(0,0,0,0.08), 0 4px 13px 0 rgba(0,0,0,0.08);
 }
 
 div#student-testimony p {
@@ -778,7 +785,8 @@ div#student-testimony p {
 
 div.carousel-item {
   height: 270px;
-  width: 400px;
+  max-width: 400px;
+  width: 95%;
   margin-left: 60px;
 }
 
@@ -807,4 +815,24 @@ span.carousel-control-next-icon {
   width: 35px;
   background-image: url('icons/right-arrow.png');
     opacity: 0.8;
+}
+
+
+@media only screen and (max-width: 550px) {
+  div.carousel-item {
+    height: 270px;
+    max-width: 400px;
+    width: 95%;
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .live-coding {
+    min-height: 2500px;
+  }
+}
+
+div#sidebar {
+  width: 375px;
 }

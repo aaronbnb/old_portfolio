@@ -94,9 +94,9 @@ class TeachSidebar extends React.Component {
               <i className="fa fa-certificate" aria-hidden="true"></i>
               <span>Scholarships Available</span>
               <ul id="class-footnotes">
-                <li>For families on government assistance such\n</li>
-                <li>as CalFresh or with other proof of need, I</li>
-                <li>offer a 40% discount  on all services.</li>
+                <li>For families on government assistance such
+                as CalFresh or with other proof of need, I
+                offer a 40% discount  on all services.</li>
               </ul>
           </div>
           </div>
