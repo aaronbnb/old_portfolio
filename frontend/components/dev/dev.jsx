@@ -18,10 +18,12 @@ class Dev extends React.Component {
             <div className="top-box">
               <div className="project-pic" id="achlls"></div>
               <div className="project-links">
-                <a href="#" className="card-link">
+                <a href="https://docs.google.com/presentation/d/1-NNViQdq4lbtc3Hd14aycO45S8lDwwa2zBHbB80R30s/edit?usp=sharing"
+                  target="_blank" className="card-link">
                   <i id="link-icon" className="fa fa-link" aria-hidden="true"></i>
                 </a>
-                <a href="#" className="card-link">
+                <a href="https://github.com/aaronbnb/achlls" className="card-link"
+                  target="_blank">
                   <i id="gh-icon" className="fa fa-github" aria-hidden="true"></i>
                 </a>
               </div>
@@ -39,10 +41,12 @@ class Dev extends React.Component {
             <div className="top-box">
               <div className="project-pic" id="indieclono"></div>
               <div className="project-links">
-                <a href="#" className="card-link">
+                <a href="https://indieclono.herokuapp.com" className="card-link"
+                  target="_blank">
                   <i id="link-icon" className="fa fa-link" aria-hidden="true"></i>
                 </a>
-                <a href="#" className="card-link">
+                <a href="https://github.com/aaronbnb/full_stack" className="card-link"
+                  target="_blank">
                   <i id="gh-icon" className="fa fa-github" aria-hidden="true"></i>
                 </a>
               </div>
@@ -60,10 +64,11 @@ class Dev extends React.Component {
             <div className="top-box">
               <div className="project-pic" id="exchanger"></div>
               <div className="project-links">
-                <a href="#" className="card-link">
+                <a href="https://exchangerranger.github.io/ExchangerRangerDemo/" className="card-link"
+                  target="_blank">
                   <i id="link-icon" className="fa fa-link" aria-hidden="true"></i>
                 </a>
-                <a href="#" className="card-link">
+                <a href="https://github.com/aaaandrea/ExchangerRanger" target="_blank" className="card-link">
                   <i id="gh-icon" className="fa fa-github" aria-hidden="true"></i>
                 </a>
               </div>
