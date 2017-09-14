@@ -175,7 +175,7 @@ span#name:hover, span#name:active, span#name:focus {
 }
 
 .live-coding {
-  background: url('fractal.png') repeat top center;
+  background: url('https://res.cloudinary.com/dn4jhnh54/image/upload/v1505352366/fractal_m3rf2t.jpg') repeat top center;
   opacity: 0.7;
   min-height: 1800px;
 }
@@ -199,14 +199,14 @@ div.test-prep {
 
 
 .stars {
-  background:#000 url('stars.png') repeat top center;
+  background:#000 url('https://res.cloudinary.com/dn4jhnh54/image/upload/q_100/v1505352169/stars_g7odhs.png') repeat top center;
   z-index:0;
 }
 
 
 
 .twinkling{
-  background: transparent url('original.png') repeat top center;
+  background: transparent url('https://res.cloudinary.com/dn4jhnh54/image/upload/v1505352165/original_nr3sqj.png') repeat top center;
   transition-delay: 1s;
   z-index:1;
 
@@ -338,7 +338,7 @@ div#jt3 {
 }
 
 div.self-image {
-  background-image: url('face.png');
+  background-image: url('https://res.cloudinary.com/dn4jhnh54/image/upload/v1505351879/face_sszytj.png');
   background-size: cover;
   background-position: center;
   height: 150px;
@@ -354,13 +354,6 @@ div.contact-info {
   min-width: 250px;
 }
 
-
-div#js {
-  height: 25px;
-  width: 25px;
-  background: #245 url("js-logo.png");
-  background-size: cover;
-}
 
 div.card {
   width: 80%;
@@ -412,17 +405,17 @@ div.project-pic {
 }
 
 div#achlls {
-  background: url("icons/achlls.png");
+  background: url("https://res.cloudinary.com/dn4jhnh54/image/upload/v1505352166/achlls_z5bvdf.png");
   background-size: cover;
 }
 
 div#indieclono {
-  background: url("icons/indieclono1.png");
+  background: url("https://res.cloudinary.com/dn4jhnh54/image/upload/v1505352166/indieclono1_olzh2h.png");
   background-size: cover;
 }
 
 div#exchanger {
-  background: url("icons/exchanger.png");
+  background: url("https://res.cloudinary.com/dn4jhnh54/image/upload/v1505352166/exchanger_ctbz4h.png");
   background-size: cover;
 }
 
@@ -836,14 +829,14 @@ div.carousel-inner {
 span.carousel-control-prev-icon {
   height: 25px;
   width: 35px;
-  background-image: url('icons/left-arrow.png');
+  background-image: url('https://res.cloudinary.com/dn4jhnh54/image/upload/v1505352293/left-arrow_izwuqd.png');
   opacity: 0.8;
 }
 
 span.carousel-control-next-icon {
   height: 25px;
   width: 35px;
-  background-image: url('icons/right-arrow.png');
+  background-image: url('https://res.cloudinary.com/dn4jhnh54/image/upload/v1505352293/right-arrow_xnc28u.png');
     opacity: 0.8;
 }
 
