@@ -18,7 +18,7 @@ class TeachBio extends React.Component {
           from information. My prep classes focus on developing the skills underlying success on
           the SAT/ACT/GRE, preparing students for higher education rather than merely cramming test strategies of little value beyond test day.
           Students better understand the relationship between ideas and how to evaluate
-          an argument and its evidence. Math curriculum taps our real-world experiences
+          an argument and its evidence. The math curriculum taps our real-world experiences
           --the logic in how we make tens of estimates and calculations each day.
           <br></br>
           <br></br>
