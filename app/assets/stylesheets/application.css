@@ -177,10 +177,12 @@ span#name:hover, span#name:active, span#name:focus {
 .live-coding {
   background: url('https://res.cloudinary.com/dn4jhnh54/image/upload/v1505352366/fractal_m3rf2t.jpg') repeat top center;
   opacity: 0.7;
-  min-height: 1800px;
+  min-height: 1900px;
 }
 
-
+div#intro {
+  margin-top: 50px;
+}
 
 
 
@@ -201,6 +203,7 @@ div.test-prep {
 .stars {
   background:#000 url('https://res.cloudinary.com/dn4jhnh54/image/upload/q_100/v1505352169/stars_g7odhs.png') repeat top center;
   z-index:0;
+  min-height: 650px;
 }
 
 
@@ -277,7 +280,7 @@ div.dev-container {
   flex-direction: column;
   align-items: center;
   z-index: 4;
-  margin-top: 120px;
+  margin-top: 70px;
 }
 
 div.profile-container {
@@ -551,9 +554,22 @@ ul#tests li:hover{
   color: #06ddb6;
 }
 
-.mock {
-    background-image: -webkit-linear-gradient(left,#06BC9B,#1ba49c);
-    background-color: #06BC9B;
+
+div#description p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #f9f9f9;
+  letter-spacing: 1px;
+}
+
+div#description li {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  list-style: none;
+  margin-left: 20px;
+  color: #f9f9f9;
 }
 
 div#navbar-container {
