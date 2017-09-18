@@ -48,7 +48,10 @@ class Home extends React.Component {
 
           </div>
           <div id="description">
-            <p className="lead">I'm a software developer with a passion for web accessibility.</p>
+            <p className="lead">I'm a software developer interested in a couple ideas.
+              </p>
+              <li>Web accessibility and how to broaden the circle of people tech can benefit.</li>
+              <li>Online</li>
           </div>
 
         </div>
