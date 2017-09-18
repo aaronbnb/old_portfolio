@@ -184,6 +184,9 @@ div#intro {
   margin-top: 50px;
 }
 
+ul.nav.navbar-nav li a {
+  padding-bottom: 10px;
+}
 
 
 div.test-prep {
