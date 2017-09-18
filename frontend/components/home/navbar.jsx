@@ -46,7 +46,7 @@ class NavBar extends React.Component {
             <ul className="nav navbar-nav">
               <li id="list-item" onClick={e => this.toggleDesign("dev")}><Link to={"dev"}>&nbsp;Developer &nbsp;</Link></li>
               <li id="list-item" onClick={e => this.toggleDesign("teach")}><Link to={"teach"}>&nbsp;Teacher &nbsp;</Link></li>
-              <li id="list-item"><a href="#">&nbsp;Resume &nbsp;</a></li>
+              <li id="list-item" onClick={e => this.toggleDesign("teach")}><Link to={"resume"}>&nbsp;Resume &nbsp;</Link></li>
               <li id="list-item"><a href="#">&nbsp;Musings &nbsp;</a></li>
             </ul>
 
