@@ -50,7 +50,7 @@ class Home extends React.Component {
           <div id="description">
             <br></br>
             <p>I'm a software developer focused on a couple ideas--online education, web accessibility,
-              and chatbots--to name a few. Fascinated by the implications of tech.
+              and chatbots--to name a few.
               </p>
              <p>I'm always down to discuss dev projects and maybe find my next source of excitement.
                </p>
