@@ -4,6 +4,8 @@ import NavBar from './navbar';
 
 
 const mapStateToProps = (state, ownProps) => {
+  console.log(state);
+  console.log(ownProps);
   return ({blogs: state.blogs,
   toggle: ownProps.toggle});
 };

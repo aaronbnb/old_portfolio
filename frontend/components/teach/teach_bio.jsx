@@ -14,15 +14,15 @@ class TeachBio extends React.Component {
         </div>
         <p id="test-prep-context">
           Test prep doesn't have to be a burden or just another hurdle to college admission.
-          The obligation presents the opportunity to examine and consider how we generate insights
-          from information. My prep classes focus on developing the skills underlying success on
+          The obligation presents an opportunity to examine and improve on how we generate insights
+          from information in the test. My prep classes focus on developing the skills underlying success on
           the SAT/ACT/GRE, preparing students for higher education rather than merely cramming test strategies of little value beyond test day.
           Students better understand the relationship between ideas and how to evaluate
-          an argument and its evidence. The math curriculum taps our real-world experiences
-          --the logic in how we make tens of estimates and calculations each day.
+          an argument and its evidence. The math curriculum taps our daily life experiences
+          --the logic in how we make tens of estimates and calculations almost everyday.
           <br></br>
           <br></br>
-          As colleges and grad schools weigh these four hour tests sometimes more for four years
+          As colleges and grad schools weigh these four hour tests sometimes more than four years
           of school, test prep presents the greatest opportunity to improve your application in a short time.
         </p>
 
@@ -42,7 +42,7 @@ class TeachBio extends React.Component {
           <li><i className="fa fa-certificate" aria-hidden="true"></i><span id="assumption">Students and teachers have a two-way relationship. Students take their lead from their teachers. However much students give,
             I give it back to them.</span></li>
           <li><i className="fa fa-certificate" aria-hidden="true"></i><span id="assumption">If a student is not as strong at one subject, I've learned that they
-          need to understand the other subjects in the same way that they are strong at. The skills that make someone strong at math or at writing
+          need to understand that subjects in the same way as the subjects they excel at. The skills that make someone strong at math or at writing
           apply to the other discipline just as well. It just takes reframing.</span></li>
         <li><i className="fa fa-certificate" aria-hidden="true"></i><span id="assumption">Test prep is one of the seemingly small, but potent inequities in education. A <em>standardized </em>
         test should be an even playing field where each student has access to high quality, affordable resources.

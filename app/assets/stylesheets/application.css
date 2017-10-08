@@ -720,10 +720,9 @@ div.test-prep-bio-container {
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 25px;
-  padding: 5px;
   max-width: 765px;
   min-width: 350px;
-  padding: 18px;
+  padding: 18px 26px 26px 18px;
   height: 100%;
 }
 

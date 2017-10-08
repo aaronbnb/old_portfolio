@@ -9,8 +9,11 @@ class Resume extends React.Component {
   render() {
     return(
       <div>
-        <iframe src="http://docs.google.com/gview?url=https://files.acrobat.com/a/preview/221da6ab-c3cd-4cb5-b0e8-08928ce5e780&embedded=true"
-          ></iframe>
+        <div height="250" background-color="black"></div>
+          <object data="/pdf/sample-3pp.pdf#page=2" type="application/pdf" width="100%" height="100%">
+             <p><b>Example fallback content</b>: This browser does not support PDFs. Please download the PDF to view it: <a href="/pdf/sample-3pp.pdf">Download PDF</a>.</p>
+          </object>
+
       </div>
     );
   }

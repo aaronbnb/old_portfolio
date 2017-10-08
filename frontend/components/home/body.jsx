@@ -7,6 +7,7 @@ class Body extends React.Component {
     super(props);
     this.background = this.background.bind(this);
     this.state = {background: "home"};
+
     this.toggleBackground = this.toggleBackground.bind(this);
   }
 
@@ -40,8 +41,8 @@ class Body extends React.Component {
       default:
         return (
           <div>
-            <div className="stars"></div>
-            <div className="twinkling"></div>
+            <div className="live-coding" id="teach">
+            </div>
           </div>
         );
     }

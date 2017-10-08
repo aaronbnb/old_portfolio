@@ -54,8 +54,8 @@ class Home extends React.Component {
               </p>
              <p>I'm always down to discuss dev projects and maybe find my next source of excitement.
                </p>
-            <p>I also teach test prep and am proud of the positive if small impact on young people's lives.</p>
-            <p>Thai or Vietnamese food. All day.</p>
+            <p>I also teach test prep and am proud of the positive (if small) impact on young people's lives.</p>
+
         </div>
 
         </div>
