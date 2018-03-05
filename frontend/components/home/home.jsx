@@ -13,7 +13,7 @@ class Home extends React.Component {
         <div id="jt3">
           <div id="contact-box">
             <div className='profile-container'>
-              <div className='self-image' role="img" aria-label="Aaron Farber professional headshot"></div>
+              <div className='self-image' role="image" aria-label="Aaron Farber professional headshot"></div>
             </div>
 
             <div className="contact-info">
@@ -34,13 +34,13 @@ class Home extends React.Component {
                     <a href="https://github.com/aaronbnb"
                       target="_blank" className="external-link">
                         <i className="fa fa-github fa-fw"></i>
-                        <span>&nbsp;&nbsp;Github</span>
+                        <span>&nbsp;&nbsp;GitHub</span>
                     </a>
                     <br />
                     <a href="https://linkedin.com/in/aaronfarber"
                       target="_blank" className="external-link">
                         <i className="fa fa-linkedin fa-fw"></i>
-                        <span>&nbsp;&nbsp;Linkedin</span>
+                        <span>&nbsp;&nbsp;LinkedIn</span>
                     </a>
               </p>
 
